@@ -1,0 +1,39 @@
+# VS Code workspace settings at any depth
+.vscode/
+
+# Test directories at any depth
+[Tt]est/
+[Tt]ests/
+
+# Python test modules
+test.py
+test_*.py
+*_test.py
+
+# C# test sources and Unity metadata
+*Test.cs
+*Tests.cs
+*Test.cs.meta
+*Tests.cs.meta
+[Tt]est.meta
+[Tt]ests.meta
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+
+# Local review artifacts
+/tmp/
+
+# Unity generated caches and local settings
+/editor_scene/LightOpt_Scene/[Ll]ibrary/
+/editor_scene/LightOpt_Scene/[Tt]emp/
+/editor_scene/LightOpt_Scene/[Ll]ogs/
+/editor_scene/LightOpt_Scene/[Oo]bj/
+/editor_scene/LightOpt_Scene/[Uu]serSettings/
+/editor_scene/LightOpt_Scene/[Bb]uild/
+/editor_scene/LightOpt_Scene/[Bb]uilds/
+/editor_scene/LightOpt_Scene/.vs/
+/editor_scene/LightOpt_Scene/*.csproj
+/editor_scene/LightOpt_Scene/*.sln
+/editor_scene/LightOpt_Scene/*.slnx

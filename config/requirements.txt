@@ -1,0 +1,14 @@
+# Windows / Python 3.11. CUDA-enabled PyTorch for the RTX 5090.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+numpy==1.26.4
+open3d==0.19.0
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+trimesh==5.1.1
+tqdm==4.70.1
+PyYAML==6.0.3
+tensorboard==2.21.0
+pytest==9.1.1
+ipykernel==7.4.0

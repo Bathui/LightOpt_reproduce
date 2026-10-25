@@ -1,6 +1,6 @@
 # LightOpt 项目记忆
 
-最后更新：2026-10-23（America/Los_Angeles）。状态描述是最后一次检查的记录，后续任务须核对当前文件再继续。
+最后更新：2026-10-24（America/Los_Angeles）。状态描述是最后一次检查的记录，后续任务须核对当前文件再继续。
 
 ## 目标和范围
 
@@ -84,7 +84,7 @@ Unity 工程：`editor_scene/LightOpt_Scene/`。
 - samples.npz 含 positions、normals、area_weights、inside_original_range、surface_ids、triangle_ids、categories、back_side；目前没有 E_target。
 - 比较 Unity 画面前需冻结风/Shader 顶点变形（例如植被材质 `_Amplitude=0`）；导出的是静态未变形网格，停止 Play Mode 不保证风停止。导出器不会自动修改原材质或场景。
 
-## 最后一次验证状态：模块 1 未完成，light.py 回归测试全部通过
+## 2026-10-23 历史验证：light.py 回归测试全部通过（最新状态见后续日期记录）
 
 2026-10-23：用户授权修复后，已修复两处核心错误，并实际运行原有 22 项 PyTorch 测试：**22 通过、0 失败、0 错误、0 跳过**。未修改测试断言来迎合实现。
 
@@ -102,12 +102,55 @@ Unity 工程：`editor_scene/LightOpt_Scene/`。
 
 证据：`tmp/validation/light_validation_report.json` 保存被测源码 SHA256 和结果；`tmp/review/light-forward-fixes.before.py` 为真实修改前快照，`tmp/review/light-forward-fixes.diff` 为准确差异。`tmp/validation/audit_light_data.py` 已改为动态运行测试，不再写死旧的失败统计。
 
+## 2026-10-24：build_target.py 调试与修复
+
+- 用户手写了 `algo/build_target.py`，授权检查并修复。已保留其结构，修复命令行入口错误（移到模块顶层，补 sample_folder 参数）、输入有限性检查（or 改 and）、移除无用 sympy 导入、补 CUDA 不可用提示。
+- 补充样本/灯光/模型源码 SHA256、模型名称，并在计算后重新核对，防止输入变化后保存不匹配目标。metadata.complete 仍在目标成功写入后设置。
+- 新增 `tests/test_build_target.py`：18 项，修复前 10 通过、6 断言失败、2 错误；修复后 18 全通过。
+- 联合原有 22 项灯光测试，实际执行 **40 项，40 通过，0 失败，0 错误，0 跳过**，包括实际命令行子进程、手算 .28125、暗区保留、NPZ/JSON 回读、输入/目标异常、缓存指纹/覆盖保护、no_grad、CPU/CUDA 数值一致性。错误分支有明确的 mock 注入，不将其表述为真实场景数值验收。
+- 真实 `data/garden_samples_002` CUDA 运行已尝试：第一盏灯的色温被 load_lights 明确拒绝；未创建 `data/garden_target_validation_001`，未改场景或原始数据。因此目标生成工具已可用，但真实 Garden 目标缓存还没生成。
+- `tmp/review/build-target-fixes.before.py` 是真实修改前快照；`tmp/review/build-target-fixes.diff` 是精确差异；`tmp/validation/build_target_validation_report.json` 记录本次结果与源码哈希。
+- 模块 1 仍未完成：剩真实 Cookie/色温策略、Garden 目标生成、目标统计和照明可视化。
+
+## 2026-10-24：批量关闭实验灯光色温和 Cookie 的编辑器菜单
+
+- 已新增 `unity/Editor/LightOptLightTools.cs`，安装副本位于 Unity 工程 `Assets/Editor/LightOptLightTools.cs`；两份一致，并通过当前 Unity API 编译检查。
+- 菜单：`Tools > LightOpt > Disable temperature and cookies`。
+- 仅处理活动场景中启用/激活、Intensity>0、Range>0 的 Realtime Point/Spot，与默认采样选择一致；不改变灯光模式、启用状态、基础颜色、强度或其他场景。
+- 将 useColorTemperature=false、cookie=null，记录 prefab 场景实例覆盖；支持一次 Ctrl+Z 撤销。仅标记场景待保存，不自动保存或修改 prefab 资产。
+- 只是菜单已安装，尚未替用户执行此场景操作。用户需要停止 Play Mode、选择 Garden_LightOpt 为活动场景、点击菜单、保存后重新导出与采样。现有 lights.json 不会自动更新。
+- 用户截图实际搜索字样为 `tLight`，正确类型筛选应为 `t:Light`；前者会匹配名字中的 Light，包含模型等对象。
+
+## 2026-10-24：真实目标缓存验证和照明可视化已生成
+
+- 用户已另行生成 `data/garden_export_004`、`data/garden_samples_004` 和 `data/garden_target_004`；本次核对缓存 metadata 指向 samples_004，样本/灯光/模型源码 SHA256 一致。
+- 当前 samples_004/lights.json 的 13 盏灯已不再触发 Cookie/色温拒绝，能够进行实际前向计算。历史 samples_002 仍保持旧状态，不要混淆数据版本。
+- 新增 `algo/validate_target.py`：缓存与输入哈希/完成标记/形状/dtype/有限值/非负值/法线/面积权重检查，显示专用 Reinhard+sRGB RGB 点云、亮度热图 PLY、亮度直方图、俯视/侧视投影、JSON 统计。可用 --recompute 重新计算并统计各灯的非零贡献样本和面积加权贡献。
+- 实际运行命令：`conda run -n lightopt python -m algo.validate_target data/garden_target_004 --output data/garden_validation_004 --recompute --device cuda`。
+- 输出 `target_rgb.ply`、`target_luminance.ply`、`diagnostics.png`、`validation_report.json`，全部在 garden_validation_004。已查看 PNG，图表和标签正常。
+- 实际缓存含 86,114 条记录：82,753 条全零（96.10%），3,361 条非零；GPU 重算与 CPU 生成缓存通过 rtol=1e-4 / atol=1e-6 比较，最大绝对差 1.9073486328125e-6。
+- 灯 1-6（小 Range Point）在现有样本上贡献为零。高零值比例是需检查的实验现象，不自动判定缓存错误；本轮仅有 13 盏实时灯，扩展球样本、Spot 锥外样本和双面背面等均可能为零。不代表全部 Unity 照明，不能把结果当作完整引擎画面。
+- 原始 NPZ/JSON 只读，PLY 保留全部记录和法线；sample_index 对应原数组行。RGB/热图是显示映射，未覆盖 raw irradiance；投影最多绘制 50,000 点并优先保留亮点，不是遮挡正确的相机渲染。
+- 默认 display scale 为正亮度的 p99；对比多个缓存时使用相同 --display-scale，避免分别自动曝光造成误判。双面点同坐标但法线/辐照度可能不同，不能只靠 PLY 深度显示判定某一侧受光。
+- 新增 `tests/test_validate_target.py`，11 项测试覆盖实际重算、文件只读、哈希不符、错误目标、未完成缓存、数值篡改、全黑、旧模型、输出保护、显示映射。完整 tests 套件实际 **51 项全部通过，0 跳过**。
+- 模块 1 的采样、目标缓存、数值统计和可视化产物现在已有完整闭环，数值/文件验证通过；尚不能宣称已验证与 Unity Shader/最终画面一致。接下来由用户查看 PLY/图像确认覆盖及参考照明是否满足实验意图，然后进入损失实现。
+- 本次另确认工程已有 `.git`（用户新增），以后使用 Git 状态/差异；不要继续沿用历史“工程无 Git”的现状描述。保留用户已有修改，不自行提交。
+
+## 2026-10-24：逐灯接口专项测试
+
+- 用户已自行实现 `algo/light.py` 的 `evaluate_per_light()`，输出为 `[M,N,3]`。本轮只完善用户指定的 `tests/test.py`，未修改灯光模型或损失代码。
+- `tests/test.py` 可从工程根目录直接运行：`conda run --no-capture-output -n lightopt python tests/test.py`。数值案例打印 expected/actual；使用独立手算结果，而非只检查逐灯求和自洽。
+- 实际运行 15 项测试，15 通过、0 失败、0 错误、0 跳过；覆盖 Point 距离/法线/Range/背面/零强度、Spot 轴向/半影/锥外/反向、混合灯顺序与 RGB、逐灯切片及总和、空灯集合/空样本、非法灯型、强度手算梯度、灯间梯度隔离、Point/Spot 位置/强度/Range 有限差分 gradcheck，以及 CUDA 数值与 backward。
+- 当前 `positions.new_zeros(0, positions.shape[0], 3)` 写法在实际环境的空灯集合测试中通过；不要仅凭静态判断声称该分支出错。
+- 这些是合成样本上的解析模型验证，不代表真实 Garden 每灯贡献或 Unity Shader 对齐已验收。本轮未重跑全项目测试套件。
+- 原测试脚本快照：`tmp/review/per-light-tests.before.py`；精确前后差异：`tmp/review/per-light-tests.diff`。tests 目录仍按用户既有 `.gitignore` 排除，不改变忽略规则。
+
 ## 下一步顺序
 
-1. 明确 Cookie/色温策略，并同步 Unity 实验配置、导出数据和目标定义；不要仅改 JSON 标记来伪装已处理。
-2. 编写目标生成入口：读取 samples.npz / lights.json，调用总辐照度，在 no_grad 下缓存 RGB E_target[N,3]。
-3. 保存输入文件 hash、模型版本、a、颜色/可见性策略；统计每灯非零样本数、面积积分贡献、最大值，检查有限性/非负值并做照明可视化。保留零目标样本。
-4. 完成上述闭环才验收模块 1，然后进入模块 3 的损失构造和模块 4/5 外循环。
+1. 查看 garden_validation_004 的 RGB/亮度 PLY 和 diagnostics.png，确认当前 13 盏实时灯对应的参考照明是用户希望优化的范围。96.10% 零值应结合逐灯覆盖检查；如调整灯集合，需重新导出/采样/生成目标/验证。
+2. 模块 1 数据闭环及数值检查已完成，Unity 最终画面/Shader 对齐仍是独立工作，不能用自洽重算代替。
+3. 继续原定模块 3 的重建、Overlap、Attraction 损失；Attraction 先核对论文公式与单点梯度方向。
+4. 后续进入模块 4/5 的连续与离散优化循环，以及模块 6 多视角/性能评测，不扩展 ToD 直到静态流程稳定。
 
 ## 常用命令
 

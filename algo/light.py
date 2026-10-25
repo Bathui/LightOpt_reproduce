@@ -1,24 +1,3 @@
-"""LightOpt light forward model: interfaces and implementation TODOs.
-
-Suggested order: compute_light_geometry -> distance_attenuation ->
-evaluate_point_light -> angular_attenuation -> evaluate_spot_light -> evaluate_irradiance.
-
-Conventions:
-- N is the number of sample records. Use consistent world units for positions,
-  ranges, and attenuation smoothness (which has units of distance squared).
-- All tensors share a device and dtype. Scalars are zero-dimensional; vectors are [3].
-- color_linear is linear-space base RGB. Cookies, shadows, color-temperature
-  conversion, BRDFs, and material colors are excluded. Handle color temperature
-  explicitly rather than ignoring the exported useColorTemperature field.
-- Cone angles are half angles in radians: halve Unity full angles before conversion.
-- Preserve the PyTorch graph in forward functions: do not use NumPy, math, .item(),
-  .detach(), or rewrap existing tensors. Loader conversion and validation are separate.
-- Do not clamp output to [0,1] or apply area_weights here.
-- Two-sided foliage samples are already paired. Clamp negative cosines to zero;
-  do not use abs or duplicate samples again.
-
-Loading helpers parse JSON into fixed parameters. Forward functions do not read
-NPZ files, create trainable parameters, save targets, or update lights."""
 from dataclasses import dataclass
 from typing import Literal, Sequence
 
@@ -29,14 +8,8 @@ import torch
 import math
 @dataclass
 class LightParameters:
-    """Internal parameters of one light; the caller converts JSON fields and validates inputs.
+    #Internal parameters of one light; the caller converts JSON fields and validates inputs.
     
-    Requires intensity >= 0, range > 0, and attenuation_smoothness > 0.
-    attenuation_smoothness is a in paper Eq. (4), measured in distance squared.
-    It is unrelated to material Smoothness and must be configured explicitly because
-    it is not included in the current Unity export.
-    Spot lights require direction and half angles satisfying 0 <= inner < outer < pi.
-    direction points outward from the light, opposite to sample-to-light omega."""
 
     kind: Literal["Point", "Spot"]
     position: Tensor                      # [3]
@@ -280,6 +253,38 @@ def evaluate_spot_light(
     spotLight_irradiance = angular_factor.unsqueeze(-1) * base_irradiance
     return spotLight_irradiance
 
+# the function gives the contribution of specific light in all sampled positions
+def evaluate_per_light(
+    positions: Tensor,
+    normals: Tensor,
+    lights: Sequence[LightParameters],
+) -> Tensor:
+    contributions = []
+
+    for light in lights:
+        if light.kind == "Point":
+            irradiance = evaluate_point_light(
+                positions,
+                normals,
+                light
+            )
+        elif light.kind == "Spot":
+            irradiance = evaluate_spot_light(
+                            positions,
+                            normals,
+                            light
+                        )
+        else:
+            raise ValueError(
+                f"Unsupported light type: {light.kind}"
+            )
+        contributions.append(irradiance)
+
+    if not contributions:
+        return positions.new_zeros(0, positions.shape[0], 3)
+
+    # add one more dimension from [N, 3] to [M, N, 3]
+    return torch.stack(contributions, dim=0)
 
 def evaluate_irradiance(
     positions: Tensor,

@@ -5,7 +5,6 @@ A lighting optimization experiment built with Unity and PyTorch. Export scene ge
 ## Demo
 
 <video src="demo.mp4" controls playsinline preload="metadata" width="960">
-  Your browser does not support embedded video. Use the link below to watch the demo.
 </video>
 
 

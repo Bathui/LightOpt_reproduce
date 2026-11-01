@@ -4,38 +4,41 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MainLight
-  - CinemachineTarget
-  - ScreenCamera
-  - cockpit_capitalLaser
+  - NavAgent
+  - Emissive_Inner
+  - Emissive_Outer
+  - Emissive_Guardian
+  - Light1
+  - Light2
+  - Alter
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Temp_Post
+  - 
   - Water
   - UI
-  - Terminal
-  - Location
-  - LookInteractor
-  - Screen
-  - Occluder
-  - Camera
-  - MainCameraOnly
-  - Oasis_TerrainBake
+  - 
+  - 
+  - ReflProbesAndPlanarOnly
+  - PlanarAndCameraOnly
+  - CameraOnly
+  - ReflProbesAndCameraOnly
+  - ReflProbesOnly
+  - Hidden
+  - 
+  - 
+  - Player
   - 
   - 
   - 
   - 
   - 
   - 
-  - Cockpit
-  - Cockpit_3DSkybox
-  - Cockpit_3DSkybox_BG
-  - Cockpit_Ally
-  - Cockpit_Invader
-  - Cockpit_BG
-  - Cockpit_DepthClear
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -45,36 +48,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  m_RenderingLayers:
-  - Default
-  - Screen
-  - Lamps
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 

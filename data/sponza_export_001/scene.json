@@ -1,0 +1,4472 @@
+{
+    "schemaVersion": 2,
+    "scene": "Assets/Scenes/Sponza_LightOpt.unity",
+    "unityVersion": "6000.6.7f1",
+    "colorSpace": "Linear",
+    "coordinates": "Unity world: x right, y up, z forward; no axis conversion",
+    "geometryScope": "Active-scene enabled MeshRenderers, highest LOD, opaque and supported alpha-clipped submeshes",
+    "vertexLayout": "vertices.f32: little-endian float32 [x,y,z,nx,ny,nz]",
+    "triangleLayout": "triangles.i32: little-endian int32 global vertex indices, three per triangle",
+    "uvLayout": "uvs.f32: little-endian float32 UV0 [u,v] per vertex",
+    "materials": [
+        {
+            "name": "Arches",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Ceiling",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Bricks",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Column_A",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Column_B",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Column_C",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Details",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Curtain_Blue",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Curtain_Green",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Curtain_Red",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Fabric_Round_Blue",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Fabric_Round_Green",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Fabric_Round_Red",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Flagpoles",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Floor",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Ivy",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "clip",
+            "alphaMaskFile": "alpha/1c6e427c22c3d5c44b2007bf28efefd3.a8",
+            "wrapU": "Repeat",
+            "wrapV": "Repeat",
+            "filter": "bilinear",
+            "width": 1024,
+            "height": 1024,
+            "category": 0,
+            "cutoff": 0.6000000238418579,
+            "alphaMultiplier": 1.0,
+            "doubleSided": true,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Lion_Head",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Lion_Shield",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Roof",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Vase_Hanging",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Vase_Hanging_Chain",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "clip",
+            "alphaMaskFile": "alpha/3df9075b6f262804c949848fec12205e.a8",
+            "wrapU": "Clamp",
+            "wrapV": "Repeat",
+            "filter": "bilinear",
+            "width": 256,
+            "height": 1024,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": true,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Vase_Octagonal",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Vase_Round",
+            "shader": "Universal Render Pipeline/Complex Lit",
+            "alphaMode": "opaque",
+            "alphaMaskFile": "",
+            "wrapU": "",
+            "wrapV": "",
+            "filter": "",
+            "width": 0,
+            "height": 0,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": false,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "name": "Vase_Round_Plants",
+            "shader": "Universal Render Pipeline/Lit",
+            "alphaMode": "clip",
+            "alphaMaskFile": "alpha/292bbcf19d097bb4989068ddd151906e.a8",
+            "wrapU": "Repeat",
+            "wrapV": "Repeat",
+            "filter": "bilinear",
+            "width": 1024,
+            "height": 1024,
+            "category": 0,
+            "cutoff": 0.5,
+            "alphaMultiplier": 1.0,
+            "doubleSided": true,
+            "uvScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "uvOffset": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        }
+    ],
+    "surfaces": [
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A001[1] #0",
+            "triangleStart": 0,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A002[2] #0",
+            "triangleStart": 160,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A003[3] #0",
+            "triangleStart": 320,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A004[4] #0",
+            "triangleStart": 480,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A005[5] #0",
+            "triangleStart": 640,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A006[6] #0",
+            "triangleStart": 800,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A007[7] #0",
+            "triangleStart": 960,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A008[8] #0",
+            "triangleStart": 1120,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A[0] #0",
+            "triangleStart": 1280,
+            "triangleCount": 160,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling001[10] #0",
+            "triangleStart": 1440,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling002[11] #0",
+            "triangleStart": 1582,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling003[12] #0",
+            "triangleStart": 1724,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling004[13] #0",
+            "triangleStart": 1866,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling005[14] #0",
+            "triangleStart": 2008,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling006[15] #0",
+            "triangleStart": 2150,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling007[16] #0",
+            "triangleStart": 2292,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling008[17] #0",
+            "triangleStart": 2434,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling[9] #0",
+            "triangleStart": 2576,
+            "triangleCount": 142,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B001[19] #0",
+            "triangleStart": 2718,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B002[20] #0",
+            "triangleStart": 2762,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B003[21] #0",
+            "triangleStart": 2806,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B004[22] #0",
+            "triangleStart": 2850,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B005[23] #0",
+            "triangleStart": 2894,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B006[24] #0",
+            "triangleStart": 2938,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B007[25] #0",
+            "triangleStart": 2982,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B008[26] #0",
+            "triangleStart": 3026,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B009[27] #0",
+            "triangleStart": 3070,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B010[28] #0",
+            "triangleStart": 3114,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B[18] #0",
+            "triangleStart": 3158,
+            "triangleCount": 44,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C001[30] #0",
+            "triangleStart": 3202,
+            "triangleCount": 1860,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C[29] #0",
+            "triangleStart": 5062,
+            "triangleCount": 1860,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D001[32] #0",
+            "triangleStart": 6922,
+            "triangleCount": 548,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D[31] #0",
+            "triangleStart": 7470,
+            "triangleCount": 548,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E001[34] #0",
+            "triangleStart": 8018,
+            "triangleCount": 280,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E[33] #0",
+            "triangleStart": 8298,
+            "triangleCount": 280,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_F[35] #0",
+            "triangleStart": 8578,
+            "triangleCount": 16,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G001[37] #0",
+            "triangleStart": 8594,
+            "triangleCount": 414,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G[36] #0",
+            "triangleStart": 9008,
+            "triangleCount": 414,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H001[39] #0",
+            "triangleStart": 9422,
+            "triangleCount": 1034,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H[38] #0",
+            "triangleStart": 10456,
+            "triangleCount": 1034,
+            "materialIndex": 0
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_A[40] #0",
+            "triangleStart": 11490,
+            "triangleCount": 20,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_B[41] #0",
+            "triangleStart": 11510,
+            "triangleCount": 20,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_A[42] #0",
+            "triangleStart": 11530,
+            "triangleCount": 132,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_B[43] #0",
+            "triangleStart": 11662,
+            "triangleCount": 204,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_C[44] #0",
+            "triangleStart": 11866,
+            "triangleCount": 100,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_D[45] #0",
+            "triangleStart": 11966,
+            "triangleCount": 8,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_E[46] #0",
+            "triangleStart": 11974,
+            "triangleCount": 18,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_F[47] #0",
+            "triangleStart": 11992,
+            "triangleCount": 36,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Arches[48] #0",
+            "triangleStart": 12028,
+            "triangleCount": 204,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Lower[49] #0",
+            "triangleStart": 12232,
+            "triangleCount": 2332,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Upper[50] #0",
+            "triangleStart": 14564,
+            "triangleCount": 2332,
+            "materialIndex": 1
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A001[52] #0",
+            "triangleStart": 16896,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A002[53] #0",
+            "triangleStart": 17304,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A003[54] #0",
+            "triangleStart": 17712,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A004[55] #0",
+            "triangleStart": 18120,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A005[56] #0",
+            "triangleStart": 18528,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A006[57] #0",
+            "triangleStart": 18936,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A007[58] #0",
+            "triangleStart": 19344,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A[51] #0",
+            "triangleStart": 19752,
+            "triangleCount": 408,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner001[60] #0",
+            "triangleStart": 20160,
+            "triangleCount": 510,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner002[61] #0",
+            "triangleStart": 20670,
+            "triangleCount": 510,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner003[62] #0",
+            "triangleStart": 21180,
+            "triangleCount": 510,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner[59] #0",
+            "triangleStart": 21690,
+            "triangleCount": 510,
+            "materialIndex": 3
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B001[64] #0",
+            "triangleStart": 22200,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B002[65] #0",
+            "triangleStart": 24134,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B003[66] #0",
+            "triangleStart": 26068,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B004[67] #0",
+            "triangleStart": 28002,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B005[68] #0",
+            "triangleStart": 29936,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B006[69] #0",
+            "triangleStart": 31870,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B007[70] #0",
+            "triangleStart": 33804,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B008[71] #0",
+            "triangleStart": 35738,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B009[72] #0",
+            "triangleStart": 37672,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B[63] #0",
+            "triangleStart": 39606,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small001[74] #0",
+            "triangleStart": 41540,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small[73] #0",
+            "triangleStart": 43474,
+            "triangleCount": 1934,
+            "materialIndex": 4
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C001[76] #0",
+            "triangleStart": 45408,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C002[77] #0",
+            "triangleStart": 45670,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C003[78] #0",
+            "triangleStart": 45932,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C004[79] #0",
+            "triangleStart": 46194,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C005[80] #0",
+            "triangleStart": 46456,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C006[81] #0",
+            "triangleStart": 46718,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C007[82] #0",
+            "triangleStart": 46980,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C[75] #0",
+            "triangleStart": 47242,
+            "triangleCount": 262,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner001[84] #0",
+            "triangleStart": 47504,
+            "triangleCount": 396,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner002[85] #0",
+            "triangleStart": 47900,
+            "triangleCount": 396,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner003[86] #0",
+            "triangleStart": 48296,
+            "triangleCount": 396,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner[83] #0",
+            "triangleStart": 48692,
+            "triangleCount": 396,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner001[88] #0",
+            "triangleStart": 49088,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner002[89] #0",
+            "triangleStart": 49162,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner003[90] #0",
+            "triangleStart": 49236,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner004[91] #0",
+            "triangleStart": 49310,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner005[92] #0",
+            "triangleStart": 49384,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner006[93] #0",
+            "triangleStart": 49458,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner007[94] #0",
+            "triangleStart": 49532,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner[87] #0",
+            "triangleStart": 49606,
+            "triangleCount": 74,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large001[96] #0",
+            "triangleStart": 49680,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large002[97] #0",
+            "triangleStart": 49768,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large003[98] #0",
+            "triangleStart": 49856,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large004[99] #0",
+            "triangleStart": 49944,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large005[100] #0",
+            "triangleStart": 50032,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large006[101] #0",
+            "triangleStart": 50120,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large007[102] #0",
+            "triangleStart": 50208,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large008[103] #0",
+            "triangleStart": 50296,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large009[104] #0",
+            "triangleStart": 50384,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large010[105] #0",
+            "triangleStart": 50472,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large011[106] #0",
+            "triangleStart": 50560,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large012[107] #0",
+            "triangleStart": 50648,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large013[108] #0",
+            "triangleStart": 50736,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large014[109] #0",
+            "triangleStart": 50824,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large015[110] #0",
+            "triangleStart": 50912,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large[95] #0",
+            "triangleStart": 51000,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium001[112] #0",
+            "triangleStart": 51088,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium002[113] #0",
+            "triangleStart": 51176,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium003[114] #0",
+            "triangleStart": 51264,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium004[115] #0",
+            "triangleStart": 51352,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium005[116] #0",
+            "triangleStart": 51440,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium006[117] #0",
+            "triangleStart": 51528,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium007[118] #0",
+            "triangleStart": 51616,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium008[119] #0",
+            "triangleStart": 51704,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium009[120] #0",
+            "triangleStart": 51792,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium010[121] #0",
+            "triangleStart": 51880,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium011[122] #0",
+            "triangleStart": 51968,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium012[123] #0",
+            "triangleStart": 52056,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium013[124] #0",
+            "triangleStart": 52144,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium014[125] #0",
+            "triangleStart": 52232,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium015[126] #0",
+            "triangleStart": 52320,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium[111] #0",
+            "triangleStart": 52408,
+            "triangleCount": 88,
+            "materialIndex": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A001[128] #0",
+            "triangleStart": 52496,
+            "triangleCount": 278,
+            "materialIndex": 6
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A[127] #0",
+            "triangleStart": 52774,
+            "triangleCount": 278,
+            "materialIndex": 6
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_B[129] #0",
+            "triangleStart": 53052,
+            "triangleCount": 160,
+            "materialIndex": 6
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A001[131] #0",
+            "triangleStart": 53212,
+            "triangleCount": 106,
+            "materialIndex": 6
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A[130] #0",
+            "triangleStart": 53318,
+            "triangleCount": 106,
+            "materialIndex": 6
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_00[132] #0",
+            "triangleStart": 53424,
+            "triangleCount": 4608,
+            "materialIndex": 7
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_01[133] #0",
+            "triangleStart": 58032,
+            "triangleCount": 4862,
+            "materialIndex": 7
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_02[134] #0",
+            "triangleStart": 62894,
+            "triangleCount": 4862,
+            "materialIndex": 7
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_00[135] #0",
+            "triangleStart": 67756,
+            "triangleCount": 4608,
+            "materialIndex": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_01[136] #0",
+            "triangleStart": 72364,
+            "triangleCount": 4862,
+            "materialIndex": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_02[137] #0",
+            "triangleStart": 77226,
+            "triangleCount": 4862,
+            "materialIndex": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_00[138] #0",
+            "triangleStart": 82088,
+            "triangleCount": 4862,
+            "materialIndex": 9
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_01[139] #0",
+            "triangleStart": 86950,
+            "triangleCount": 4608,
+            "materialIndex": 9
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_02[140] #0",
+            "triangleStart": 91558,
+            "triangleCount": 4608,
+            "materialIndex": 9
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_03[141] #0",
+            "triangleStart": 96166,
+            "triangleCount": 4862,
+            "materialIndex": 9
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_00[142] #0",
+            "triangleStart": 101028,
+            "triangleCount": 5504,
+            "materialIndex": 10
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_01[143] #0",
+            "triangleStart": 106532,
+            "triangleCount": 5504,
+            "materialIndex": 10
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_00[144] #0",
+            "triangleStart": 112036,
+            "triangleCount": 5504,
+            "materialIndex": 11
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_01[145] #0",
+            "triangleStart": 117540,
+            "triangleCount": 5504,
+            "materialIndex": 11
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_02[146] #0",
+            "triangleStart": 123044,
+            "triangleCount": 5504,
+            "materialIndex": 11
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_03[147] #0",
+            "triangleStart": 128548,
+            "triangleCount": 5504,
+            "materialIndex": 11
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_00[148] #0",
+            "triangleStart": 134052,
+            "triangleCount": 5504,
+            "materialIndex": 12
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_01[149] #0",
+            "triangleStart": 139556,
+            "triangleCount": 5504,
+            "materialIndex": 12
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A001[151] #0",
+            "triangleStart": 145060,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A002[152] #0",
+            "triangleStart": 145742,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A003[153] #0",
+            "triangleStart": 146424,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A004[154] #0",
+            "triangleStart": 147106,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A005[155] #0",
+            "triangleStart": 147788,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A006[156] #0",
+            "triangleStart": 148470,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A007[157] #0",
+            "triangleStart": 149152,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A[150] #0",
+            "triangleStart": 149834,
+            "triangleCount": 682,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B001[159] #0",
+            "triangleStart": 150516,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B002[160] #0",
+            "triangleStart": 151620,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B003[161] #0",
+            "triangleStart": 152724,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B004[162] #0",
+            "triangleStart": 153828,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B005[163] #0",
+            "triangleStart": 154932,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B006[164] #0",
+            "triangleStart": 156036,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B007[165] #0",
+            "triangleStart": 157140,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B008[166] #0",
+            "triangleStart": 158244,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B009[167] #0",
+            "triangleStart": 159348,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B[158] #0",
+            "triangleStart": 160452,
+            "triangleCount": 1104,
+            "materialIndex": 13
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Lower[168] #0",
+            "triangleStart": 161556,
+            "triangleCount": 5,
+            "materialIndex": 14
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Upper[169] #0",
+            "triangleStart": 161561,
+            "triangleCount": 16,
+            "materialIndex": 14
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_A[170] #0",
+            "triangleStart": 161577,
+            "triangleCount": 2204,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_B[171] #0",
+            "triangleStart": 163781,
+            "triangleCount": 3802,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_C[172] #0",
+            "triangleStart": 167583,
+            "triangleCount": 3308,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_D[173] #0",
+            "triangleStart": 170891,
+            "triangleCount": 2204,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_E[174] #0",
+            "triangleStart": 173095,
+            "triangleCount": 2218,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_F[175] #0",
+            "triangleStart": 175313,
+            "triangleCount": 3640,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_G[176] #0",
+            "triangleStart": 178953,
+            "triangleCount": 3308,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_H[177] #0",
+            "triangleStart": 182261,
+            "triangleCount": 3502,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_I[178] #0",
+            "triangleStart": 185763,
+            "triangleCount": 2428,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_J[179] #0",
+            "triangleStart": 188191,
+            "triangleCount": 2204,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_K[180] #0",
+            "triangleStart": 190395,
+            "triangleCount": 2618,
+            "materialIndex": 15
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head001[182] #0",
+            "triangleStart": 193013,
+            "triangleCount": 1521,
+            "materialIndex": 16
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head[181] #0",
+            "triangleStart": 194534,
+            "triangleCount": 1521,
+            "materialIndex": 16
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield001[184] #0",
+            "triangleStart": 196055,
+            "triangleCount": 1362,
+            "materialIndex": 17
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield002[185] #0",
+            "triangleStart": 197417,
+            "triangleCount": 1362,
+            "materialIndex": 17
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield[183] #0",
+            "triangleStart": 198779,
+            "triangleCount": 1362,
+            "materialIndex": 17
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Roof[186] #0",
+            "triangleStart": 200141,
+            "triangleCount": 13988,
+            "materialIndex": 18
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Roof[187] #0",
+            "triangleStart": 214129,
+            "triangleCount": 496,
+            "materialIndex": 18
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Walls[188] #0",
+            "triangleStart": 214625,
+            "triangleCount": 102,
+            "materialIndex": 2
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging001[190] #0",
+            "triangleStart": 214727,
+            "triangleCount": 5048,
+            "materialIndex": 19
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging002[191] #0",
+            "triangleStart": 219775,
+            "triangleCount": 5048,
+            "materialIndex": 19
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging003[192] #0",
+            "triangleStart": 224823,
+            "triangleCount": 5048,
+            "materialIndex": 19
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging[189] #0",
+            "triangleStart": 229871,
+            "triangleCount": 5048,
+            "materialIndex": 19
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain001[194] #0",
+            "triangleStart": 234919,
+            "triangleCount": 8,
+            "materialIndex": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain002[195] #0",
+            "triangleStart": 234927,
+            "triangleCount": 8,
+            "materialIndex": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain003[196] #0",
+            "triangleStart": 234935,
+            "triangleCount": 8,
+            "materialIndex": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain[193] #0",
+            "triangleStart": 234943,
+            "triangleCount": 8,
+            "materialIndex": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal001[198] #0",
+            "triangleStart": 234951,
+            "triangleCount": 2296,
+            "materialIndex": 21
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal002[199] #0",
+            "triangleStart": 237247,
+            "triangleCount": 2296,
+            "materialIndex": 21
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal003[200] #0",
+            "triangleStart": 239543,
+            "triangleCount": 2296,
+            "materialIndex": 21
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal[197] #0",
+            "triangleStart": 241839,
+            "triangleCount": 2296,
+            "materialIndex": 21
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round001[202] #0",
+            "triangleStart": 244135,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round002[203] #0",
+            "triangleStart": 246282,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round003[204] #0",
+            "triangleStart": 248429,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round004[205] #0",
+            "triangleStart": 250576,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round005[206] #0",
+            "triangleStart": 252723,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round006[207] #0",
+            "triangleStart": 254870,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round007[208] #0",
+            "triangleStart": 257017,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round[201] #0",
+            "triangleStart": 259164,
+            "triangleCount": 2147,
+            "materialIndex": 22
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A001[210] #0",
+            "triangleStart": 261311,
+            "triangleCount": 459,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A002[211] #0",
+            "triangleStart": 261770,
+            "triangleCount": 461,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A003[212] #0",
+            "triangleStart": 262231,
+            "triangleCount": 461,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A[209] #0",
+            "triangleStart": 262692,
+            "triangleCount": 462,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B001[214] #0",
+            "triangleStart": 263154,
+            "triangleCount": 400,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B002[215] #0",
+            "triangleStart": 263554,
+            "triangleCount": 400,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B003[216] #0",
+            "triangleStart": 263954,
+            "triangleCount": 400,
+            "materialIndex": 23
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B[213] #0",
+            "triangleStart": 264354,
+            "triangleCount": 400,
+            "materialIndex": 23
+        }
+    ],
+    "meshes": [
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A001[1]",
+            "layer": 0,
+            "vertexStart": 0,
+            "vertexCount": 144,
+            "triangleStart": 0,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A002[2]",
+            "layer": 0,
+            "vertexStart": 144,
+            "vertexCount": 144,
+            "triangleStart": 160,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A003[3]",
+            "layer": 0,
+            "vertexStart": 288,
+            "vertexCount": 144,
+            "triangleStart": 320,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A004[4]",
+            "layer": 0,
+            "vertexStart": 432,
+            "vertexCount": 144,
+            "triangleStart": 480,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A005[5]",
+            "layer": 0,
+            "vertexStart": 576,
+            "vertexCount": 144,
+            "triangleStart": 640,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A006[6]",
+            "layer": 0,
+            "vertexStart": 720,
+            "vertexCount": 144,
+            "triangleStart": 800,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A007[7]",
+            "layer": 0,
+            "vertexStart": 864,
+            "vertexCount": 144,
+            "triangleStart": 960,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A008[8]",
+            "layer": 0,
+            "vertexStart": 1008,
+            "vertexCount": 144,
+            "triangleStart": 1120,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A[0]",
+            "layer": 0,
+            "vertexStart": 1152,
+            "vertexCount": 144,
+            "triangleStart": 1280,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling001[10]",
+            "layer": 0,
+            "vertexStart": 1296,
+            "vertexCount": 154,
+            "triangleStart": 1440,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling002[11]",
+            "layer": 0,
+            "vertexStart": 1450,
+            "vertexCount": 154,
+            "triangleStart": 1582,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling003[12]",
+            "layer": 0,
+            "vertexStart": 1604,
+            "vertexCount": 154,
+            "triangleStart": 1724,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling004[13]",
+            "layer": 0,
+            "vertexStart": 1758,
+            "vertexCount": 154,
+            "triangleStart": 1866,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling005[14]",
+            "layer": 0,
+            "vertexStart": 1912,
+            "vertexCount": 154,
+            "triangleStart": 2008,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling006[15]",
+            "layer": 0,
+            "vertexStart": 2066,
+            "vertexCount": 154,
+            "triangleStart": 2150,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling007[16]",
+            "layer": 0,
+            "vertexStart": 2220,
+            "vertexCount": 154,
+            "triangleStart": 2292,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling008[17]",
+            "layer": 0,
+            "vertexStart": 2374,
+            "vertexCount": 154,
+            "triangleStart": 2434,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling[9]",
+            "layer": 0,
+            "vertexStart": 2528,
+            "vertexCount": 154,
+            "triangleStart": 2576,
+            "triangleCount": 142
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B001[19]",
+            "layer": 0,
+            "vertexStart": 2682,
+            "vertexCount": 86,
+            "triangleStart": 2718,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B002[20]",
+            "layer": 0,
+            "vertexStart": 2768,
+            "vertexCount": 86,
+            "triangleStart": 2762,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B003[21]",
+            "layer": 0,
+            "vertexStart": 2854,
+            "vertexCount": 86,
+            "triangleStart": 2806,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B004[22]",
+            "layer": 0,
+            "vertexStart": 2940,
+            "vertexCount": 86,
+            "triangleStart": 2850,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B005[23]",
+            "layer": 0,
+            "vertexStart": 3026,
+            "vertexCount": 86,
+            "triangleStart": 2894,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B006[24]",
+            "layer": 0,
+            "vertexStart": 3112,
+            "vertexCount": 86,
+            "triangleStart": 2938,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B007[25]",
+            "layer": 0,
+            "vertexStart": 3198,
+            "vertexCount": 86,
+            "triangleStart": 2982,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B008[26]",
+            "layer": 0,
+            "vertexStart": 3284,
+            "vertexCount": 86,
+            "triangleStart": 3026,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B009[27]",
+            "layer": 0,
+            "vertexStart": 3370,
+            "vertexCount": 86,
+            "triangleStart": 3070,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B010[28]",
+            "layer": 0,
+            "vertexStart": 3456,
+            "vertexCount": 86,
+            "triangleStart": 3114,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B[18]",
+            "layer": 0,
+            "vertexStart": 3542,
+            "vertexCount": 86,
+            "triangleStart": 3158,
+            "triangleCount": 44
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C001[30]",
+            "layer": 0,
+            "vertexStart": 3628,
+            "vertexCount": 1990,
+            "triangleStart": 3202,
+            "triangleCount": 1860
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C[29]",
+            "layer": 0,
+            "vertexStart": 5618,
+            "vertexCount": 1990,
+            "triangleStart": 5062,
+            "triangleCount": 1860
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D001[32]",
+            "layer": 0,
+            "vertexStart": 7608,
+            "vertexCount": 586,
+            "triangleStart": 6922,
+            "triangleCount": 548
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D[31]",
+            "layer": 0,
+            "vertexStart": 8194,
+            "vertexCount": 586,
+            "triangleStart": 7470,
+            "triangleCount": 548
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E001[34]",
+            "layer": 0,
+            "vertexStart": 8780,
+            "vertexCount": 480,
+            "triangleStart": 8018,
+            "triangleCount": 280
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E[33]",
+            "layer": 0,
+            "vertexStart": 9260,
+            "vertexCount": 480,
+            "triangleStart": 8298,
+            "triangleCount": 280
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_F[35]",
+            "layer": 0,
+            "vertexStart": 9740,
+            "vertexCount": 32,
+            "triangleStart": 8578,
+            "triangleCount": 16
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G001[37]",
+            "layer": 0,
+            "vertexStart": 9772,
+            "vertexCount": 442,
+            "triangleStart": 8594,
+            "triangleCount": 414
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G[36]",
+            "layer": 0,
+            "vertexStart": 10214,
+            "vertexCount": 442,
+            "triangleStart": 9008,
+            "triangleCount": 414
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H001[39]",
+            "layer": 0,
+            "vertexStart": 10656,
+            "vertexCount": 1154,
+            "triangleStart": 9422,
+            "triangleCount": 1034
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H[38]",
+            "layer": 0,
+            "vertexStart": 11810,
+            "vertexCount": 1154,
+            "triangleStart": 10456,
+            "triangleCount": 1034
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_A[40]",
+            "layer": 0,
+            "vertexStart": 12964,
+            "vertexCount": 40,
+            "triangleStart": 11490,
+            "triangleCount": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_B[41]",
+            "layer": 0,
+            "vertexStart": 13004,
+            "vertexCount": 40,
+            "triangleStart": 11510,
+            "triangleCount": 20
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_A[42]",
+            "layer": 0,
+            "vertexStart": 13044,
+            "vertexCount": 122,
+            "triangleStart": 11530,
+            "triangleCount": 132
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_B[43]",
+            "layer": 0,
+            "vertexStart": 13166,
+            "vertexCount": 216,
+            "triangleStart": 11662,
+            "triangleCount": 204
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_C[44]",
+            "layer": 0,
+            "vertexStart": 13382,
+            "vertexCount": 112,
+            "triangleStart": 11866,
+            "triangleCount": 100
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_D[45]",
+            "layer": 0,
+            "vertexStart": 13494,
+            "vertexCount": 16,
+            "triangleStart": 11966,
+            "triangleCount": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_E[46]",
+            "layer": 0,
+            "vertexStart": 13510,
+            "vertexCount": 26,
+            "triangleStart": 11974,
+            "triangleCount": 18
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_F[47]",
+            "layer": 0,
+            "vertexStart": 13536,
+            "vertexCount": 40,
+            "triangleStart": 11992,
+            "triangleCount": 36
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Arches[48]",
+            "layer": 0,
+            "vertexStart": 13576,
+            "vertexCount": 212,
+            "triangleStart": 12028,
+            "triangleCount": 204
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Lower[49]",
+            "layer": 0,
+            "vertexStart": 13788,
+            "vertexCount": 1864,
+            "triangleStart": 12232,
+            "triangleCount": 2332
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Upper[50]",
+            "layer": 0,
+            "vertexStart": 15652,
+            "vertexCount": 1864,
+            "triangleStart": 14564,
+            "triangleCount": 2332
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A001[52]",
+            "layer": 0,
+            "vertexStart": 17516,
+            "vertexCount": 518,
+            "triangleStart": 16896,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A002[53]",
+            "layer": 0,
+            "vertexStart": 18034,
+            "vertexCount": 518,
+            "triangleStart": 17304,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A003[54]",
+            "layer": 0,
+            "vertexStart": 18552,
+            "vertexCount": 518,
+            "triangleStart": 17712,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A004[55]",
+            "layer": 0,
+            "vertexStart": 19070,
+            "vertexCount": 518,
+            "triangleStart": 18120,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A005[56]",
+            "layer": 0,
+            "vertexStart": 19588,
+            "vertexCount": 518,
+            "triangleStart": 18528,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A006[57]",
+            "layer": 0,
+            "vertexStart": 20106,
+            "vertexCount": 518,
+            "triangleStart": 18936,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A007[58]",
+            "layer": 0,
+            "vertexStart": 20624,
+            "vertexCount": 518,
+            "triangleStart": 19344,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A[51]",
+            "layer": 0,
+            "vertexStart": 21142,
+            "vertexCount": 518,
+            "triangleStart": 19752,
+            "triangleCount": 408
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner001[60]",
+            "layer": 0,
+            "vertexStart": 21660,
+            "vertexCount": 744,
+            "triangleStart": 20160,
+            "triangleCount": 510
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner002[61]",
+            "layer": 0,
+            "vertexStart": 22404,
+            "vertexCount": 744,
+            "triangleStart": 20670,
+            "triangleCount": 510
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner003[62]",
+            "layer": 0,
+            "vertexStart": 23148,
+            "vertexCount": 744,
+            "triangleStart": 21180,
+            "triangleCount": 510
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner[59]",
+            "layer": 0,
+            "vertexStart": 23892,
+            "vertexCount": 744,
+            "triangleStart": 21690,
+            "triangleCount": 510
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B001[64]",
+            "layer": 0,
+            "vertexStart": 24636,
+            "vertexCount": 2003,
+            "triangleStart": 22200,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B002[65]",
+            "layer": 0,
+            "vertexStart": 26639,
+            "vertexCount": 2003,
+            "triangleStart": 24134,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B003[66]",
+            "layer": 0,
+            "vertexStart": 28642,
+            "vertexCount": 2003,
+            "triangleStart": 26068,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B004[67]",
+            "layer": 0,
+            "vertexStart": 30645,
+            "vertexCount": 2003,
+            "triangleStart": 28002,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B005[68]",
+            "layer": 0,
+            "vertexStart": 32648,
+            "vertexCount": 2003,
+            "triangleStart": 29936,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B006[69]",
+            "layer": 0,
+            "vertexStart": 34651,
+            "vertexCount": 2003,
+            "triangleStart": 31870,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B007[70]",
+            "layer": 0,
+            "vertexStart": 36654,
+            "vertexCount": 2003,
+            "triangleStart": 33804,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B008[71]",
+            "layer": 0,
+            "vertexStart": 38657,
+            "vertexCount": 2003,
+            "triangleStart": 35738,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B009[72]",
+            "layer": 0,
+            "vertexStart": 40660,
+            "vertexCount": 2003,
+            "triangleStart": 37672,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B[63]",
+            "layer": 0,
+            "vertexStart": 42663,
+            "vertexCount": 2003,
+            "triangleStart": 39606,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small001[74]",
+            "layer": 0,
+            "vertexStart": 44666,
+            "vertexCount": 2014,
+            "triangleStart": 41540,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small[73]",
+            "layer": 0,
+            "vertexStart": 46680,
+            "vertexCount": 2014,
+            "triangleStart": 43474,
+            "triangleCount": 1934
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C001[76]",
+            "layer": 0,
+            "vertexStart": 48694,
+            "vertexCount": 458,
+            "triangleStart": 45408,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C002[77]",
+            "layer": 0,
+            "vertexStart": 49152,
+            "vertexCount": 458,
+            "triangleStart": 45670,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C003[78]",
+            "layer": 0,
+            "vertexStart": 49610,
+            "vertexCount": 458,
+            "triangleStart": 45932,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C004[79]",
+            "layer": 0,
+            "vertexStart": 50068,
+            "vertexCount": 458,
+            "triangleStart": 46194,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C005[80]",
+            "layer": 0,
+            "vertexStart": 50526,
+            "vertexCount": 458,
+            "triangleStart": 46456,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C006[81]",
+            "layer": 0,
+            "vertexStart": 50984,
+            "vertexCount": 458,
+            "triangleStart": 46718,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C007[82]",
+            "layer": 0,
+            "vertexStart": 51442,
+            "vertexCount": 458,
+            "triangleStart": 46980,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C[75]",
+            "layer": 0,
+            "vertexStart": 51900,
+            "vertexCount": 458,
+            "triangleStart": 47242,
+            "triangleCount": 262
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner001[84]",
+            "layer": 0,
+            "vertexStart": 52358,
+            "vertexCount": 702,
+            "triangleStart": 47504,
+            "triangleCount": 396
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner002[85]",
+            "layer": 0,
+            "vertexStart": 53060,
+            "vertexCount": 702,
+            "triangleStart": 47900,
+            "triangleCount": 396
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner003[86]",
+            "layer": 0,
+            "vertexStart": 53762,
+            "vertexCount": 702,
+            "triangleStart": 48296,
+            "triangleCount": 396
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner[83]",
+            "layer": 0,
+            "vertexStart": 54464,
+            "vertexCount": 702,
+            "triangleStart": 48692,
+            "triangleCount": 396
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner001[88]",
+            "layer": 0,
+            "vertexStart": 55166,
+            "vertexCount": 130,
+            "triangleStart": 49088,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner002[89]",
+            "layer": 0,
+            "vertexStart": 55296,
+            "vertexCount": 130,
+            "triangleStart": 49162,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner003[90]",
+            "layer": 0,
+            "vertexStart": 55426,
+            "vertexCount": 130,
+            "triangleStart": 49236,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner004[91]",
+            "layer": 0,
+            "vertexStart": 55556,
+            "vertexCount": 130,
+            "triangleStart": 49310,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner005[92]",
+            "layer": 0,
+            "vertexStart": 55686,
+            "vertexCount": 130,
+            "triangleStart": 49384,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner006[93]",
+            "layer": 0,
+            "vertexStart": 55816,
+            "vertexCount": 130,
+            "triangleStart": 49458,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner007[94]",
+            "layer": 0,
+            "vertexStart": 55946,
+            "vertexCount": 130,
+            "triangleStart": 49532,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner[87]",
+            "layer": 0,
+            "vertexStart": 56076,
+            "vertexCount": 130,
+            "triangleStart": 49606,
+            "triangleCount": 74
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large001[96]",
+            "layer": 0,
+            "vertexStart": 56206,
+            "vertexCount": 152,
+            "triangleStart": 49680,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large002[97]",
+            "layer": 0,
+            "vertexStart": 56358,
+            "vertexCount": 152,
+            "triangleStart": 49768,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large003[98]",
+            "layer": 0,
+            "vertexStart": 56510,
+            "vertexCount": 152,
+            "triangleStart": 49856,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large004[99]",
+            "layer": 0,
+            "vertexStart": 56662,
+            "vertexCount": 152,
+            "triangleStart": 49944,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large005[100]",
+            "layer": 0,
+            "vertexStart": 56814,
+            "vertexCount": 152,
+            "triangleStart": 50032,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large006[101]",
+            "layer": 0,
+            "vertexStart": 56966,
+            "vertexCount": 152,
+            "triangleStart": 50120,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large007[102]",
+            "layer": 0,
+            "vertexStart": 57118,
+            "vertexCount": 152,
+            "triangleStart": 50208,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large008[103]",
+            "layer": 0,
+            "vertexStart": 57270,
+            "vertexCount": 152,
+            "triangleStart": 50296,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large009[104]",
+            "layer": 0,
+            "vertexStart": 57422,
+            "vertexCount": 152,
+            "triangleStart": 50384,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large010[105]",
+            "layer": 0,
+            "vertexStart": 57574,
+            "vertexCount": 152,
+            "triangleStart": 50472,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large011[106]",
+            "layer": 0,
+            "vertexStart": 57726,
+            "vertexCount": 152,
+            "triangleStart": 50560,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large012[107]",
+            "layer": 0,
+            "vertexStart": 57878,
+            "vertexCount": 152,
+            "triangleStart": 50648,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large013[108]",
+            "layer": 0,
+            "vertexStart": 58030,
+            "vertexCount": 152,
+            "triangleStart": 50736,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large014[109]",
+            "layer": 0,
+            "vertexStart": 58182,
+            "vertexCount": 152,
+            "triangleStart": 50824,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large015[110]",
+            "layer": 0,
+            "vertexStart": 58334,
+            "vertexCount": 152,
+            "triangleStart": 50912,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large[95]",
+            "layer": 0,
+            "vertexStart": 58486,
+            "vertexCount": 152,
+            "triangleStart": 51000,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium001[112]",
+            "layer": 0,
+            "vertexStart": 58638,
+            "vertexCount": 152,
+            "triangleStart": 51088,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium002[113]",
+            "layer": 0,
+            "vertexStart": 58790,
+            "vertexCount": 152,
+            "triangleStart": 51176,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium003[114]",
+            "layer": 0,
+            "vertexStart": 58942,
+            "vertexCount": 152,
+            "triangleStart": 51264,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium004[115]",
+            "layer": 0,
+            "vertexStart": 59094,
+            "vertexCount": 152,
+            "triangleStart": 51352,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium005[116]",
+            "layer": 0,
+            "vertexStart": 59246,
+            "vertexCount": 152,
+            "triangleStart": 51440,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium006[117]",
+            "layer": 0,
+            "vertexStart": 59398,
+            "vertexCount": 152,
+            "triangleStart": 51528,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium007[118]",
+            "layer": 0,
+            "vertexStart": 59550,
+            "vertexCount": 152,
+            "triangleStart": 51616,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium008[119]",
+            "layer": 0,
+            "vertexStart": 59702,
+            "vertexCount": 152,
+            "triangleStart": 51704,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium009[120]",
+            "layer": 0,
+            "vertexStart": 59854,
+            "vertexCount": 152,
+            "triangleStart": 51792,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium010[121]",
+            "layer": 0,
+            "vertexStart": 60006,
+            "vertexCount": 152,
+            "triangleStart": 51880,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium011[122]",
+            "layer": 0,
+            "vertexStart": 60158,
+            "vertexCount": 152,
+            "triangleStart": 51968,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium012[123]",
+            "layer": 0,
+            "vertexStart": 60310,
+            "vertexCount": 152,
+            "triangleStart": 52056,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium013[124]",
+            "layer": 0,
+            "vertexStart": 60462,
+            "vertexCount": 152,
+            "triangleStart": 52144,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium014[125]",
+            "layer": 0,
+            "vertexStart": 60614,
+            "vertexCount": 152,
+            "triangleStart": 52232,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium015[126]",
+            "layer": 0,
+            "vertexStart": 60766,
+            "vertexCount": 152,
+            "triangleStart": 52320,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium[111]",
+            "layer": 0,
+            "vertexStart": 60918,
+            "vertexCount": 152,
+            "triangleStart": 52408,
+            "triangleCount": 88
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A001[128]",
+            "layer": 0,
+            "vertexStart": 61070,
+            "vertexCount": 344,
+            "triangleStart": 52496,
+            "triangleCount": 278
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A[127]",
+            "layer": 0,
+            "vertexStart": 61414,
+            "vertexCount": 344,
+            "triangleStart": 52774,
+            "triangleCount": 278
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_B[129]",
+            "layer": 0,
+            "vertexStart": 61758,
+            "vertexCount": 214,
+            "triangleStart": 53052,
+            "triangleCount": 160
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A001[131]",
+            "layer": 0,
+            "vertexStart": 61972,
+            "vertexCount": 146,
+            "triangleStart": 53212,
+            "triangleCount": 106
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A[130]",
+            "layer": 0,
+            "vertexStart": 62118,
+            "vertexCount": 146,
+            "triangleStart": 53318,
+            "triangleCount": 106
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_00[132]",
+            "layer": 0,
+            "vertexStart": 62264,
+            "vertexCount": 2494,
+            "triangleStart": 53424,
+            "triangleCount": 4608
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_01[133]",
+            "layer": 0,
+            "vertexStart": 64758,
+            "vertexCount": 2620,
+            "triangleStart": 58032,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_02[134]",
+            "layer": 0,
+            "vertexStart": 67378,
+            "vertexCount": 2620,
+            "triangleStart": 62894,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_00[135]",
+            "layer": 0,
+            "vertexStart": 69998,
+            "vertexCount": 2494,
+            "triangleStart": 67756,
+            "triangleCount": 4608
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_01[136]",
+            "layer": 0,
+            "vertexStart": 72492,
+            "vertexCount": 2620,
+            "triangleStart": 72364,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_02[137]",
+            "layer": 0,
+            "vertexStart": 75112,
+            "vertexCount": 2620,
+            "triangleStart": 77226,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_00[138]",
+            "layer": 0,
+            "vertexStart": 77732,
+            "vertexCount": 2620,
+            "triangleStart": 82088,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_01[139]",
+            "layer": 0,
+            "vertexStart": 80352,
+            "vertexCount": 2494,
+            "triangleStart": 86950,
+            "triangleCount": 4608
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_02[140]",
+            "layer": 0,
+            "vertexStart": 82846,
+            "vertexCount": 2494,
+            "triangleStart": 91558,
+            "triangleCount": 4608
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_03[141]",
+            "layer": 0,
+            "vertexStart": 85340,
+            "vertexCount": 2620,
+            "triangleStart": 96166,
+            "triangleCount": 4862
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_00[142]",
+            "layer": 0,
+            "vertexStart": 87960,
+            "vertexCount": 3240,
+            "triangleStart": 101028,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_01[143]",
+            "layer": 0,
+            "vertexStart": 91200,
+            "vertexCount": 3240,
+            "triangleStart": 106532,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_00[144]",
+            "layer": 0,
+            "vertexStart": 94440,
+            "vertexCount": 3240,
+            "triangleStart": 112036,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_01[145]",
+            "layer": 0,
+            "vertexStart": 97680,
+            "vertexCount": 3240,
+            "triangleStart": 117540,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_02[146]",
+            "layer": 0,
+            "vertexStart": 100920,
+            "vertexCount": 3240,
+            "triangleStart": 123044,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_03[147]",
+            "layer": 0,
+            "vertexStart": 104160,
+            "vertexCount": 3240,
+            "triangleStart": 128548,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_00[148]",
+            "layer": 0,
+            "vertexStart": 107400,
+            "vertexCount": 3240,
+            "triangleStart": 134052,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_01[149]",
+            "layer": 0,
+            "vertexStart": 110640,
+            "vertexCount": 3240,
+            "triangleStart": 139556,
+            "triangleCount": 5504
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A001[151]",
+            "layer": 0,
+            "vertexStart": 113880,
+            "vertexCount": 509,
+            "triangleStart": 145060,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A002[152]",
+            "layer": 0,
+            "vertexStart": 114389,
+            "vertexCount": 509,
+            "triangleStart": 145742,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A003[153]",
+            "layer": 0,
+            "vertexStart": 114898,
+            "vertexCount": 509,
+            "triangleStart": 146424,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A004[154]",
+            "layer": 0,
+            "vertexStart": 115407,
+            "vertexCount": 509,
+            "triangleStart": 147106,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A005[155]",
+            "layer": 0,
+            "vertexStart": 115916,
+            "vertexCount": 509,
+            "triangleStart": 147788,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A006[156]",
+            "layer": 0,
+            "vertexStart": 116425,
+            "vertexCount": 509,
+            "triangleStart": 148470,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A007[157]",
+            "layer": 0,
+            "vertexStart": 116934,
+            "vertexCount": 509,
+            "triangleStart": 149152,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A[150]",
+            "layer": 0,
+            "vertexStart": 117443,
+            "vertexCount": 509,
+            "triangleStart": 149834,
+            "triangleCount": 682
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B001[159]",
+            "layer": 0,
+            "vertexStart": 117952,
+            "vertexCount": 854,
+            "triangleStart": 150516,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B002[160]",
+            "layer": 0,
+            "vertexStart": 118806,
+            "vertexCount": 854,
+            "triangleStart": 151620,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B003[161]",
+            "layer": 0,
+            "vertexStart": 119660,
+            "vertexCount": 854,
+            "triangleStart": 152724,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B004[162]",
+            "layer": 0,
+            "vertexStart": 120514,
+            "vertexCount": 854,
+            "triangleStart": 153828,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B005[163]",
+            "layer": 0,
+            "vertexStart": 121368,
+            "vertexCount": 854,
+            "triangleStart": 154932,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B006[164]",
+            "layer": 0,
+            "vertexStart": 122222,
+            "vertexCount": 854,
+            "triangleStart": 156036,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B007[165]",
+            "layer": 0,
+            "vertexStart": 123076,
+            "vertexCount": 854,
+            "triangleStart": 157140,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B008[166]",
+            "layer": 0,
+            "vertexStart": 123930,
+            "vertexCount": 854,
+            "triangleStart": 158244,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B009[167]",
+            "layer": 0,
+            "vertexStart": 124784,
+            "vertexCount": 854,
+            "triangleStart": 159348,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B[158]",
+            "layer": 0,
+            "vertexStart": 125638,
+            "vertexCount": 854,
+            "triangleStart": 160452,
+            "triangleCount": 1104
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Lower[168]",
+            "layer": 0,
+            "vertexStart": 126492,
+            "vertexCount": 7,
+            "triangleStart": 161556,
+            "triangleCount": 5
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Upper[169]",
+            "layer": 0,
+            "vertexStart": 126499,
+            "vertexCount": 16,
+            "triangleStart": 161561,
+            "triangleCount": 16
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_A[170]",
+            "layer": 0,
+            "vertexStart": 126515,
+            "vertexCount": 1595,
+            "triangleStart": 161577,
+            "triangleCount": 2204
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_B[171]",
+            "layer": 0,
+            "vertexStart": 128110,
+            "vertexCount": 3114,
+            "triangleStart": 163781,
+            "triangleCount": 3802
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_C[172]",
+            "layer": 0,
+            "vertexStart": 131224,
+            "vertexCount": 2431,
+            "triangleStart": 167583,
+            "triangleCount": 3308
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_D[173]",
+            "layer": 0,
+            "vertexStart": 133655,
+            "vertexCount": 1580,
+            "triangleStart": 170891,
+            "triangleCount": 2204
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_E[174]",
+            "layer": 0,
+            "vertexStart": 135235,
+            "vertexCount": 1601,
+            "triangleStart": 173095,
+            "triangleCount": 2218
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_F[175]",
+            "layer": 0,
+            "vertexStart": 136836,
+            "vertexCount": 2971,
+            "triangleStart": 175313,
+            "triangleCount": 3640
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_G[176]",
+            "layer": 0,
+            "vertexStart": 139807,
+            "vertexCount": 2407,
+            "triangleStart": 178953,
+            "triangleCount": 3308
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_H[177]",
+            "layer": 0,
+            "vertexStart": 142214,
+            "vertexCount": 2820,
+            "triangleStart": 182261,
+            "triangleCount": 3502
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_I[178]",
+            "layer": 0,
+            "vertexStart": 145034,
+            "vertexCount": 1758,
+            "triangleStart": 185763,
+            "triangleCount": 2428
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_J[179]",
+            "layer": 0,
+            "vertexStart": 146792,
+            "vertexCount": 1577,
+            "triangleStart": 188191,
+            "triangleCount": 2204
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_K[180]",
+            "layer": 0,
+            "vertexStart": 148369,
+            "vertexCount": 2084,
+            "triangleStart": 190395,
+            "triangleCount": 2618
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head001[182]",
+            "layer": 0,
+            "vertexStart": 150453,
+            "vertexCount": 864,
+            "triangleStart": 193013,
+            "triangleCount": 1521
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head[181]",
+            "layer": 0,
+            "vertexStart": 151317,
+            "vertexCount": 864,
+            "triangleStart": 194534,
+            "triangleCount": 1521
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield001[184]",
+            "layer": 0,
+            "vertexStart": 152181,
+            "vertexCount": 789,
+            "triangleStart": 196055,
+            "triangleCount": 1362
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield002[185]",
+            "layer": 0,
+            "vertexStart": 152970,
+            "vertexCount": 789,
+            "triangleStart": 197417,
+            "triangleCount": 1362
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield[183]",
+            "layer": 0,
+            "vertexStart": 153759,
+            "vertexCount": 789,
+            "triangleStart": 198779,
+            "triangleCount": 1362
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Roof[186]",
+            "layer": 0,
+            "vertexStart": 154548,
+            "vertexCount": 11355,
+            "triangleStart": 200141,
+            "triangleCount": 13988
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Roof[187]",
+            "layer": 0,
+            "vertexStart": 165903,
+            "vertexCount": 640,
+            "triangleStart": 214129,
+            "triangleCount": 496
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Walls[188]",
+            "layer": 0,
+            "vertexStart": 166543,
+            "vertexCount": 166,
+            "triangleStart": 214625,
+            "triangleCount": 102
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging001[190]",
+            "layer": 0,
+            "vertexStart": 166709,
+            "vertexCount": 3501,
+            "triangleStart": 214727,
+            "triangleCount": 5048
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging002[191]",
+            "layer": 0,
+            "vertexStart": 170210,
+            "vertexCount": 3501,
+            "triangleStart": 219775,
+            "triangleCount": 5048
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging003[192]",
+            "layer": 0,
+            "vertexStart": 173711,
+            "vertexCount": 3501,
+            "triangleStart": 224823,
+            "triangleCount": 5048
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging[189]",
+            "layer": 0,
+            "vertexStart": 177212,
+            "vertexCount": 3501,
+            "triangleStart": 229871,
+            "triangleCount": 5048
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain001[194]",
+            "layer": 0,
+            "vertexStart": 180713,
+            "vertexCount": 16,
+            "triangleStart": 234919,
+            "triangleCount": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain002[195]",
+            "layer": 0,
+            "vertexStart": 180729,
+            "vertexCount": 16,
+            "triangleStart": 234927,
+            "triangleCount": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain003[196]",
+            "layer": 0,
+            "vertexStart": 180745,
+            "vertexCount": 16,
+            "triangleStart": 234935,
+            "triangleCount": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain[193]",
+            "layer": 0,
+            "vertexStart": 180761,
+            "vertexCount": 16,
+            "triangleStart": 234943,
+            "triangleCount": 8
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal001[198]",
+            "layer": 0,
+            "vertexStart": 180777,
+            "vertexCount": 1581,
+            "triangleStart": 234951,
+            "triangleCount": 2296
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal002[199]",
+            "layer": 0,
+            "vertexStart": 182358,
+            "vertexCount": 1581,
+            "triangleStart": 237247,
+            "triangleCount": 2296
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal003[200]",
+            "layer": 0,
+            "vertexStart": 183939,
+            "vertexCount": 1581,
+            "triangleStart": 239543,
+            "triangleCount": 2296
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal[197]",
+            "layer": 0,
+            "vertexStart": 185520,
+            "vertexCount": 1581,
+            "triangleStart": 241839,
+            "triangleCount": 2296
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round001[202]",
+            "layer": 0,
+            "vertexStart": 187101,
+            "vertexCount": 1491,
+            "triangleStart": 244135,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round002[203]",
+            "layer": 0,
+            "vertexStart": 188592,
+            "vertexCount": 1491,
+            "triangleStart": 246282,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round003[204]",
+            "layer": 0,
+            "vertexStart": 190083,
+            "vertexCount": 1491,
+            "triangleStart": 248429,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round004[205]",
+            "layer": 0,
+            "vertexStart": 191574,
+            "vertexCount": 1491,
+            "triangleStart": 250576,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round005[206]",
+            "layer": 0,
+            "vertexStart": 193065,
+            "vertexCount": 1491,
+            "triangleStart": 252723,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round006[207]",
+            "layer": 0,
+            "vertexStart": 194556,
+            "vertexCount": 1491,
+            "triangleStart": 254870,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round007[208]",
+            "layer": 0,
+            "vertexStart": 196047,
+            "vertexCount": 1491,
+            "triangleStart": 257017,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round[201]",
+            "layer": 0,
+            "vertexStart": 197538,
+            "vertexCount": 1491,
+            "triangleStart": 259164,
+            "triangleCount": 2147
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A001[210]",
+            "layer": 0,
+            "vertexStart": 199029,
+            "vertexCount": 524,
+            "triangleStart": 261311,
+            "triangleCount": 459
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A002[211]",
+            "layer": 0,
+            "vertexStart": 199553,
+            "vertexCount": 526,
+            "triangleStart": 261770,
+            "triangleCount": 461
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A003[212]",
+            "layer": 0,
+            "vertexStart": 200079,
+            "vertexCount": 526,
+            "triangleStart": 262231,
+            "triangleCount": 461
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A[209]",
+            "layer": 0,
+            "vertexStart": 200605,
+            "vertexCount": 527,
+            "triangleStart": 262692,
+            "triangleCount": 462
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B001[214]",
+            "layer": 0,
+            "vertexStart": 201132,
+            "vertexCount": 450,
+            "triangleStart": 263154,
+            "triangleCount": 400
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B002[215]",
+            "layer": 0,
+            "vertexStart": 201582,
+            "vertexCount": 450,
+            "triangleStart": 263554,
+            "triangleCount": 400
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B003[216]",
+            "layer": 0,
+            "vertexStart": 202032,
+            "vertexCount": 450,
+            "triangleStart": 263954,
+            "triangleCount": 400
+        },
+        {
+            "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B[213]",
+            "layer": 0,
+            "vertexStart": 202482,
+            "vertexCount": 450,
+            "triangleStart": 264354,
+            "triangleCount": 400
+        }
+    ],
+    "lights": [
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1031120064-0",
+            "path": "Directional Light[3]",
+            "type": "Directional",
+            "mode": "Mixed",
+            "shadows": "Soft",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": true,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "direction": {
+                "x": -0.24760562181472778,
+                "y": -0.9135454297065735,
+                "z": 0.3226858973503113
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 0.9431372284889221,
+                "b": 0.8999999761581421,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 0.8754890561103821,
+                "b": 0.7874123454093933,
+                "a": 1.0
+            },
+            "intensity": 7.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 5500.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-498668021-0",
+            "path": "TestingLights[7]/PointLight_01[0]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 3.427000045776367,
+                "y": 1.0499999523162842,
+                "z": -2.049999952316284
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 2.4000000953674316,
+            "range": 2.049999952316284,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-150880961-0",
+            "path": "TestingLights[7]/PointLight_02[1]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.736000061035156,
+                "y": 5.059999942779541,
+                "z": -4.380000114440918
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1681717722-0",
+            "path": "TestingLights[7]/PointLight_03[2]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 5.059999942779541,
+                "z": -9.314000129699707
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-485571918-0",
+            "path": "TestingLights[7]/PointLight_04[3]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 2.059999942779541,
+                "z": 9.258999824523926
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1943593221-0",
+            "path": "TestingLights[7]/PointLight_05[4]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -0.8029999732971191,
+                "y": 4.230000019073486,
+                "z": 9.258999824523926
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1915491355-0",
+            "path": "TestingLights[7]/PointLight_06[5]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 4.230000019073486,
+                "z": 9.258999824523926
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-235961091-0",
+            "path": "TestingLights[7]/PointLight_07[6]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 4.96999979019165,
+                "y": 4.230000019073486,
+                "z": 6.931000232696533
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1556247936-0",
+            "path": "TestingLights[7]/PointLight_08[7]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 4.230000019073486,
+                "z": 1.4730000495910645
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-499357380-0",
+            "path": "TestingLights[7]/PointLight_09[8]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 4.96999979019165,
+                "y": 4.230000019073486,
+                "z": -0.8549995422363281
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1152851687-0",
+            "path": "TestingLights[7]/PointLight_10[9]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 4.230000019073486,
+                "z": -1.656000018119812
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-170595699-0",
+            "path": "TestingLights[7]/PointLight_11[10]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 4.96999979019165,
+                "y": 4.230000019073486,
+                "z": -3.983999729156494
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1774522551-0",
+            "path": "TestingLights[7]/PointLight_12[11]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -4.156000137329102,
+                "y": 4.230000019073486,
+                "z": 5.459000110626221
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-2001063185-0",
+            "path": "TestingLights[7]/PointLight_13[12]",
+            "type": "Point",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 4.96999979019165,
+                "y": 4.230000019073486,
+                "z": 3.131000518798828
+            },
+            "direction": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 5.0,
+            "range": 3.0,
+            "innerSpotAngleDegrees": 21.802080154418945,
+            "outerSpotAngleDegrees": 30.0,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-111899422-0",
+            "path": "TestingLights[7]/Spot Light_01[13]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.2199999988079071,
+                "y": 4.375,
+                "z": 4.789999961853027
+            },
+            "direction": {
+                "x": 0.08000992238521576,
+                "y": -0.8231363296508789,
+                "z": 0.5621787905693054
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-2127958156-0",
+            "path": "TestingLights[7]/Spot Light_02[14]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.2199999988079071,
+                "y": 4.375,
+                "z": 4.789999961853027
+            },
+            "direction": {
+                "x": 0.1333840936422348,
+                "y": 0.3222658336162567,
+                "z": 0.9372050762176514
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-112546434-0",
+            "path": "TestingLights[7]/Spot Light_03[15]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.2199999988079071,
+                "y": 4.572999954223633,
+                "z": 2.9579999446868896
+            },
+            "direction": {
+                "x": -0.046902358531951904,
+                "y": -0.8980276584625244,
+                "z": -0.43743154406547546
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1374047612-0",
+            "path": "TestingLights[7]/Spot Light_04[16]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.2199999988079071,
+                "y": 4.572999954223633,
+                "z": 2.9579999446868896
+            },
+            "direction": {
+                "x": -0.046902358531951904,
+                "y": -0.8980276584625244,
+                "z": -0.43743154406547546
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-725005602-0",
+            "path": "TestingLights[7]/Spot Light_05[17]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": 0.20999999344348907,
+                "y": 2.640000104904175,
+                "z": -5.739999771118164
+            },
+            "direction": {
+                "x": 0.008158073760569096,
+                "y": -0.3551068902015686,
+                "z": -0.934790313243866
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1513803488-0",
+            "path": "TestingLights[7]/Spot Light_06[18]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -0.4090000092983246,
+                "y": 2.740999937057495,
+                "z": -1.9819999933242798
+            },
+            "direction": {
+                "x": 0.008158073760569096,
+                "y": -0.3551068902015686,
+                "z": -0.934790313243866
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-312372191-0",
+            "path": "TestingLights[7]/Spot Light_07[19]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -0.4000000059604645,
+                "y": 5.568999767303467,
+                "z": -3.055999994277954
+            },
+            "direction": {
+                "x": 0.008158073760569096,
+                "y": -0.3551068902015686,
+                "z": -0.934790313243866
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        },
+        {
+            "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1290834828-0",
+            "path": "TestingLights[7]/Spot Light_08[20]",
+            "type": "Spot",
+            "mode": "Realtime",
+            "shadows": "None",
+            "enabled": true,
+            "active": true,
+            "hasCookie": false,
+            "useColorTemperature": false,
+            "cullingMask": -1,
+            "position": {
+                "x": -0.4000000059604645,
+                "y": 5.568999767303467,
+                "z": -3.055999994277954
+            },
+            "direction": {
+                "x": 0.008158073760569096,
+                "y": -0.3551068902015686,
+                "z": -0.934790313243866
+            },
+            "colorRaw": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorLinear": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "intensity": 20.0,
+            "range": 10.0,
+            "innerSpotAngleDegrees": 75.91272735595703,
+            "outerSpotAngleDegrees": 94.73956298828125,
+            "colorTemperature": 6570.0
+        }
+    ],
+    "notes": [
+        "No visibility/shadow evaluation. No terrain, particles, decals, or shader vertex displacement.",
+        "Normals are inverse-transpose transformed vertex normals; tangents/normal maps are not exported.",
+        "No visibility filtering of buried/back surfaces. No scene or light settings modified. Freeze wind/vertex animation in Unity for comparisons."
+    ]
+}

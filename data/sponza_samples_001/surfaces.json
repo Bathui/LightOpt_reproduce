@@ -1,0 +1,1860 @@
+{
+  "surfaces": [
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A001[1] #0",
+      "triangleStart": 0,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A002[2] #0",
+      "triangleStart": 160,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A003[3] #0",
+      "triangleStart": 320,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A004[4] #0",
+      "triangleStart": 480,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A005[5] #0",
+      "triangleStart": 640,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A006[6] #0",
+      "triangleStart": 800,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A007[7] #0",
+      "triangleStart": 960,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A008[8] #0",
+      "triangleStart": 1120,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A[0] #0",
+      "triangleStart": 1280,
+      "triangleCount": 160,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling001[10] #0",
+      "triangleStart": 1440,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling002[11] #0",
+      "triangleStart": 1582,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling003[12] #0",
+      "triangleStart": 1724,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling004[13] #0",
+      "triangleStart": 1866,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling005[14] #0",
+      "triangleStart": 2008,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling006[15] #0",
+      "triangleStart": 2150,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling007[16] #0",
+      "triangleStart": 2292,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling008[17] #0",
+      "triangleStart": 2434,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_A_Filling[9] #0",
+      "triangleStart": 2576,
+      "triangleCount": 142,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B001[19] #0",
+      "triangleStart": 2718,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B002[20] #0",
+      "triangleStart": 2762,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B003[21] #0",
+      "triangleStart": 2806,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B004[22] #0",
+      "triangleStart": 2850,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B005[23] #0",
+      "triangleStart": 2894,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B006[24] #0",
+      "triangleStart": 2938,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B007[25] #0",
+      "triangleStart": 2982,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B008[26] #0",
+      "triangleStart": 3026,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B009[27] #0",
+      "triangleStart": 3070,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B010[28] #0",
+      "triangleStart": 3114,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_B[18] #0",
+      "triangleStart": 3158,
+      "triangleCount": 44,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C001[30] #0",
+      "triangleStart": 3202,
+      "triangleCount": 1860,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_C[29] #0",
+      "triangleStart": 5062,
+      "triangleCount": 1860,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D001[32] #0",
+      "triangleStart": 6922,
+      "triangleCount": 548,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_D[31] #0",
+      "triangleStart": 7470,
+      "triangleCount": 548,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E001[34] #0",
+      "triangleStart": 8018,
+      "triangleCount": 280,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_E[33] #0",
+      "triangleStart": 8298,
+      "triangleCount": 280,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_F[35] #0",
+      "triangleStart": 8578,
+      "triangleCount": 16,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G001[37] #0",
+      "triangleStart": 8594,
+      "triangleCount": 414,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_G[36] #0",
+      "triangleStart": 9008,
+      "triangleCount": 414,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H001[39] #0",
+      "triangleStart": 9422,
+      "triangleCount": 1034,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Arch_H[38] #0",
+      "triangleStart": 10456,
+      "triangleCount": 1034,
+      "materialIndex": 0
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_A[40] #0",
+      "triangleStart": 11490,
+      "triangleCount": 20,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickTrim_B[41] #0",
+      "triangleStart": 11510,
+      "triangleCount": 20,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_A[42] #0",
+      "triangleStart": 11530,
+      "triangleCount": 132,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_B[43] #0",
+      "triangleStart": 11662,
+      "triangleCount": 204,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_C[44] #0",
+      "triangleStart": 11866,
+      "triangleCount": 100,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_D[45] #0",
+      "triangleStart": 11966,
+      "triangleCount": 8,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_E[46] #0",
+      "triangleStart": 11974,
+      "triangleCount": 18,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/BrickWall_F[47] #0",
+      "triangleStart": 11992,
+      "triangleCount": 36,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Arches[48] #0",
+      "triangleStart": 12028,
+      "triangleCount": 204,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Lower[49] #0",
+      "triangleStart": 12232,
+      "triangleCount": 2332,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ceiling_Upper[50] #0",
+      "triangleStart": 14564,
+      "triangleCount": 2332,
+      "materialIndex": 1
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A001[52] #0",
+      "triangleStart": 16896,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A002[53] #0",
+      "triangleStart": 17304,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A003[54] #0",
+      "triangleStart": 17712,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A004[55] #0",
+      "triangleStart": 18120,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A005[56] #0",
+      "triangleStart": 18528,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A006[57] #0",
+      "triangleStart": 18936,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A007[58] #0",
+      "triangleStart": 19344,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A[51] #0",
+      "triangleStart": 19752,
+      "triangleCount": 408,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner001[60] #0",
+      "triangleStart": 20160,
+      "triangleCount": 510,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner002[61] #0",
+      "triangleStart": 20670,
+      "triangleCount": 510,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner003[62] #0",
+      "triangleStart": 21180,
+      "triangleCount": 510,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_A_Corner[59] #0",
+      "triangleStart": 21690,
+      "triangleCount": 510,
+      "materialIndex": 3
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B001[64] #0",
+      "triangleStart": 22200,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B002[65] #0",
+      "triangleStart": 24134,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B003[66] #0",
+      "triangleStart": 26068,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B004[67] #0",
+      "triangleStart": 28002,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B005[68] #0",
+      "triangleStart": 29936,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B006[69] #0",
+      "triangleStart": 31870,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B007[70] #0",
+      "triangleStart": 33804,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B008[71] #0",
+      "triangleStart": 35738,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B009[72] #0",
+      "triangleStart": 37672,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B[63] #0",
+      "triangleStart": 39606,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small001[74] #0",
+      "triangleStart": 41540,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_B_Small[73] #0",
+      "triangleStart": 43474,
+      "triangleCount": 1934,
+      "materialIndex": 4
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C001[76] #0",
+      "triangleStart": 45408,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C002[77] #0",
+      "triangleStart": 45670,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C003[78] #0",
+      "triangleStart": 45932,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C004[79] #0",
+      "triangleStart": 46194,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C005[80] #0",
+      "triangleStart": 46456,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C006[81] #0",
+      "triangleStart": 46718,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C007[82] #0",
+      "triangleStart": 46980,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C[75] #0",
+      "triangleStart": 47242,
+      "triangleCount": 262,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner001[84] #0",
+      "triangleStart": 47504,
+      "triangleCount": 396,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner002[85] #0",
+      "triangleStart": 47900,
+      "triangleCount": 396,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner003[86] #0",
+      "triangleStart": 48296,
+      "triangleCount": 396,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Corner[83] #0",
+      "triangleStart": 48692,
+      "triangleCount": 396,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner001[88] #0",
+      "triangleStart": 49088,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner002[89] #0",
+      "triangleStart": 49162,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner003[90] #0",
+      "triangleStart": 49236,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner004[91] #0",
+      "triangleStart": 49310,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner005[92] #0",
+      "triangleStart": 49384,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner006[93] #0",
+      "triangleStart": 49458,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner007[94] #0",
+      "triangleStart": 49532,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Corner[87] #0",
+      "triangleStart": 49606,
+      "triangleCount": 74,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large001[96] #0",
+      "triangleStart": 49680,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large002[97] #0",
+      "triangleStart": 49768,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large003[98] #0",
+      "triangleStart": 49856,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large004[99] #0",
+      "triangleStart": 49944,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large005[100] #0",
+      "triangleStart": 50032,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large006[101] #0",
+      "triangleStart": 50120,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large007[102] #0",
+      "triangleStart": 50208,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large008[103] #0",
+      "triangleStart": 50296,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large009[104] #0",
+      "triangleStart": 50384,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large010[105] #0",
+      "triangleStart": 50472,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large011[106] #0",
+      "triangleStart": 50560,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large012[107] #0",
+      "triangleStart": 50648,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large013[108] #0",
+      "triangleStart": 50736,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large014[109] #0",
+      "triangleStart": 50824,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large015[110] #0",
+      "triangleStart": 50912,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Large[95] #0",
+      "triangleStart": 51000,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium001[112] #0",
+      "triangleStart": 51088,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium002[113] #0",
+      "triangleStart": 51176,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium003[114] #0",
+      "triangleStart": 51264,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium004[115] #0",
+      "triangleStart": 51352,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium005[116] #0",
+      "triangleStart": 51440,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium006[117] #0",
+      "triangleStart": 51528,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium007[118] #0",
+      "triangleStart": 51616,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium008[119] #0",
+      "triangleStart": 51704,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium009[120] #0",
+      "triangleStart": 51792,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium010[121] #0",
+      "triangleStart": 51880,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium011[122] #0",
+      "triangleStart": 51968,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium012[123] #0",
+      "triangleStart": 52056,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium013[124] #0",
+      "triangleStart": 52144,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium014[125] #0",
+      "triangleStart": 52232,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium015[126] #0",
+      "triangleStart": 52320,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Column_C_Trim_Medium[111] #0",
+      "triangleStart": 52408,
+      "triangleCount": 88,
+      "materialIndex": 5
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A001[128] #0",
+      "triangleStart": 52496,
+      "triangleCount": 278,
+      "materialIndex": 6
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_A[127] #0",
+      "triangleStart": 52774,
+      "triangleCount": 278,
+      "materialIndex": 6
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Door_B[129] #0",
+      "triangleStart": 53052,
+      "triangleCount": 160,
+      "materialIndex": 6
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A001[131] #0",
+      "triangleStart": 53212,
+      "triangleCount": 106,
+      "materialIndex": 6
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Details_Window_A[130] #0",
+      "triangleStart": 53318,
+      "triangleCount": 106,
+      "materialIndex": 6
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_00[132] #0",
+      "triangleStart": 53424,
+      "triangleCount": 4608,
+      "materialIndex": 7
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_01[133] #0",
+      "triangleStart": 58032,
+      "triangleCount": 4862,
+      "materialIndex": 7
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Blue_02[134] #0",
+      "triangleStart": 62894,
+      "triangleCount": 4862,
+      "materialIndex": 7
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_00[135] #0",
+      "triangleStart": 67756,
+      "triangleCount": 4608,
+      "materialIndex": 8
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_01[136] #0",
+      "triangleStart": 72364,
+      "triangleCount": 4862,
+      "materialIndex": 8
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Green_02[137] #0",
+      "triangleStart": 77226,
+      "triangleCount": 4862,
+      "materialIndex": 8
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_00[138] #0",
+      "triangleStart": 82088,
+      "triangleCount": 4862,
+      "materialIndex": 9
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_01[139] #0",
+      "triangleStart": 86950,
+      "triangleCount": 4608,
+      "materialIndex": 9
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_02[140] #0",
+      "triangleStart": 91558,
+      "triangleCount": 4608,
+      "materialIndex": 9
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Curtain_Red_03[141] #0",
+      "triangleStart": 96166,
+      "triangleCount": 4862,
+      "materialIndex": 9
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_00[142] #0",
+      "triangleStart": 101028,
+      "triangleCount": 5504,
+      "materialIndex": 10
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Blue_01[143] #0",
+      "triangleStart": 106532,
+      "triangleCount": 5504,
+      "materialIndex": 10
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_00[144] #0",
+      "triangleStart": 112036,
+      "triangleCount": 5504,
+      "materialIndex": 11
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_01[145] #0",
+      "triangleStart": 117540,
+      "triangleCount": 5504,
+      "materialIndex": 11
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_02[146] #0",
+      "triangleStart": 123044,
+      "triangleCount": 5504,
+      "materialIndex": 11
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Green_03[147] #0",
+      "triangleStart": 128548,
+      "triangleCount": 5504,
+      "materialIndex": 11
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_00[148] #0",
+      "triangleStart": 134052,
+      "triangleCount": 5504,
+      "materialIndex": 12
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Fabric_Round_Red_01[149] #0",
+      "triangleStart": 139556,
+      "triangleCount": 5504,
+      "materialIndex": 12
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A001[151] #0",
+      "triangleStart": 145060,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A002[152] #0",
+      "triangleStart": 145742,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A003[153] #0",
+      "triangleStart": 146424,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A004[154] #0",
+      "triangleStart": 147106,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A005[155] #0",
+      "triangleStart": 147788,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A006[156] #0",
+      "triangleStart": 148470,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A007[157] #0",
+      "triangleStart": 149152,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_A[150] #0",
+      "triangleStart": 149834,
+      "triangleCount": 682,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B001[159] #0",
+      "triangleStart": 150516,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B002[160] #0",
+      "triangleStart": 151620,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B003[161] #0",
+      "triangleStart": 152724,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B004[162] #0",
+      "triangleStart": 153828,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B005[163] #0",
+      "triangleStart": 154932,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B006[164] #0",
+      "triangleStart": 156036,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B007[165] #0",
+      "triangleStart": 157140,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B008[166] #0",
+      "triangleStart": 158244,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B009[167] #0",
+      "triangleStart": 159348,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Flagpole_B[158] #0",
+      "triangleStart": 160452,
+      "triangleCount": 1104,
+      "materialIndex": 13
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Lower[168] #0",
+      "triangleStart": 161556,
+      "triangleCount": 5,
+      "materialIndex": 14
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Floor_Upper[169] #0",
+      "triangleStart": 161561,
+      "triangleCount": 16,
+      "materialIndex": 14
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_A[170] #0",
+      "triangleStart": 161577,
+      "triangleCount": 2204,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_B[171] #0",
+      "triangleStart": 163781,
+      "triangleCount": 3802,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_C[172] #0",
+      "triangleStart": 167583,
+      "triangleCount": 3308,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_D[173] #0",
+      "triangleStart": 170891,
+      "triangleCount": 2204,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_E[174] #0",
+      "triangleStart": 173095,
+      "triangleCount": 2218,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_F[175] #0",
+      "triangleStart": 175313,
+      "triangleCount": 3640,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_G[176] #0",
+      "triangleStart": 178953,
+      "triangleCount": 3308,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_H[177] #0",
+      "triangleStart": 182261,
+      "triangleCount": 3502,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_I[178] #0",
+      "triangleStart": 185763,
+      "triangleCount": 2428,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_J[179] #0",
+      "triangleStart": 188191,
+      "triangleCount": 2204,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Ivy_K[180] #0",
+      "triangleStart": 190395,
+      "triangleCount": 2618,
+      "materialIndex": 15
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head001[182] #0",
+      "triangleStart": 193013,
+      "triangleCount": 1521,
+      "materialIndex": 16
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Head[181] #0",
+      "triangleStart": 194534,
+      "triangleCount": 1521,
+      "materialIndex": 16
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield001[184] #0",
+      "triangleStart": 196055,
+      "triangleCount": 1362,
+      "materialIndex": 17
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield002[185] #0",
+      "triangleStart": 197417,
+      "triangleCount": 1362,
+      "materialIndex": 17
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Lion_Shield[183] #0",
+      "triangleStart": 198779,
+      "triangleCount": 1362,
+      "materialIndex": 17
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Roof[186] #0",
+      "triangleStart": 200141,
+      "triangleCount": 13988,
+      "materialIndex": 18
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Roof[187] #0",
+      "triangleStart": 214129,
+      "triangleCount": 496,
+      "materialIndex": 18
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Support_Walls[188] #0",
+      "triangleStart": 214625,
+      "triangleCount": 102,
+      "materialIndex": 2
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging001[190] #0",
+      "triangleStart": 214727,
+      "triangleCount": 5048,
+      "materialIndex": 19
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging002[191] #0",
+      "triangleStart": 219775,
+      "triangleCount": 5048,
+      "materialIndex": 19
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging003[192] #0",
+      "triangleStart": 224823,
+      "triangleCount": 5048,
+      "materialIndex": 19
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging[189] #0",
+      "triangleStart": 229871,
+      "triangleCount": 5048,
+      "materialIndex": 19
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain001[194] #0",
+      "triangleStart": 234919,
+      "triangleCount": 8,
+      "materialIndex": 20
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain002[195] #0",
+      "triangleStart": 234927,
+      "triangleCount": 8,
+      "materialIndex": 20
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain003[196] #0",
+      "triangleStart": 234935,
+      "triangleCount": 8,
+      "materialIndex": 20
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Hanging_Chain[193] #0",
+      "triangleStart": 234943,
+      "triangleCount": 8,
+      "materialIndex": 20
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal001[198] #0",
+      "triangleStart": 234951,
+      "triangleCount": 2296,
+      "materialIndex": 21
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal002[199] #0",
+      "triangleStart": 237247,
+      "triangleCount": 2296,
+      "materialIndex": 21
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal003[200] #0",
+      "triangleStart": 239543,
+      "triangleCount": 2296,
+      "materialIndex": 21
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Octagonal[197] #0",
+      "triangleStart": 241839,
+      "triangleCount": 2296,
+      "materialIndex": 21
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round001[202] #0",
+      "triangleStart": 244135,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round002[203] #0",
+      "triangleStart": 246282,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round003[204] #0",
+      "triangleStart": 248429,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round004[205] #0",
+      "triangleStart": 250576,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round005[206] #0",
+      "triangleStart": 252723,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round006[207] #0",
+      "triangleStart": 254870,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round007[208] #0",
+      "triangleStart": 257017,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round[201] #0",
+      "triangleStart": 259164,
+      "triangleCount": 2147,
+      "materialIndex": 22
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A001[210] #0",
+      "triangleStart": 261311,
+      "triangleCount": 459,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A002[211] #0",
+      "triangleStart": 261770,
+      "triangleCount": 461,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A003[212] #0",
+      "triangleStart": 262231,
+      "triangleCount": 461,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_A[209] #0",
+      "triangleStart": 262692,
+      "triangleCount": 462,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B001[214] #0",
+      "triangleStart": 263154,
+      "triangleCount": 400,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B002[215] #0",
+      "triangleStart": 263554,
+      "triangleCount": 400,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B003[216] #0",
+      "triangleStart": 263954,
+      "triangleCount": 400,
+      "materialIndex": 23
+    },
+    {
+      "path": "Environment[0]/Sponza_Modular[0]/Sponza_Grouped[0]/Vase_Round_Plants_B[213] #0",
+      "triangleStart": 264354,
+      "triangleCount": 400,
+      "materialIndex": 23
+    }
+  ],
+  "materials": [
+    {
+      "name": "Arches",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Ceiling",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Bricks",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Column_A",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Column_B",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Column_C",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Details",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Curtain_Blue",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Curtain_Green",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Curtain_Red",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Fabric_Round_Blue",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Fabric_Round_Green",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Fabric_Round_Red",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Flagpoles",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Floor",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Ivy",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "clip",
+      "alphaMaskFile": "alpha/1c6e427c22c3d5c44b2007bf28efefd3.a8",
+      "wrapU": "Repeat",
+      "wrapV": "Repeat",
+      "filter": "bilinear",
+      "width": 1024,
+      "height": 1024,
+      "category": 0,
+      "cutoff": 0.6000000238418579,
+      "alphaMultiplier": 1.0,
+      "doubleSided": true,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Lion_Head",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Lion_Shield",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Roof",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vase_Hanging",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vase_Hanging_Chain",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "clip",
+      "alphaMaskFile": "alpha/3df9075b6f262804c949848fec12205e.a8",
+      "wrapU": "Clamp",
+      "wrapV": "Repeat",
+      "filter": "bilinear",
+      "width": 256,
+      "height": 1024,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": true,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vase_Octagonal",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vase_Round",
+      "shader": "Universal Render Pipeline/Complex Lit",
+      "alphaMode": "opaque",
+      "alphaMaskFile": "",
+      "wrapU": "",
+      "wrapV": "",
+      "filter": "",
+      "width": 0,
+      "height": 0,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": false,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "name": "Vase_Round_Plants",
+      "shader": "Universal Render Pipeline/Lit",
+      "alphaMode": "clip",
+      "alphaMaskFile": "alpha/292bbcf19d097bb4989068ddd151906e.a8",
+      "wrapU": "Repeat",
+      "wrapV": "Repeat",
+      "filter": "bilinear",
+      "width": 1024,
+      "height": 1024,
+      "category": 0,
+      "cutoff": 0.5,
+      "alphaMultiplier": 1.0,
+      "doubleSided": true,
+      "uvScale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "uvOffset": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ]
+}

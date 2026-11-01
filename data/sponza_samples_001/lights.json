@@ -1,0 +1,821 @@
+[
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-498668021-0",
+    "path": "TestingLights[7]/PointLight_01[0]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 3.427000045776367,
+      "y": 1.0499999523162842,
+      "z": -2.049999952316284
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 2.4000000953674316,
+    "range": 2.049999952316284,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-150880961-0",
+    "path": "TestingLights[7]/PointLight_02[1]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.736000061035156,
+      "y": 5.059999942779541,
+      "z": -4.380000114440918
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1681717722-0",
+    "path": "TestingLights[7]/PointLight_03[2]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 5.059999942779541,
+      "z": -9.314000129699707
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-485571918-0",
+    "path": "TestingLights[7]/PointLight_04[3]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 2.059999942779541,
+      "z": 9.258999824523926
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1943593221-0",
+    "path": "TestingLights[7]/PointLight_05[4]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -0.8029999732971191,
+      "y": 4.230000019073486,
+      "z": 9.258999824523926
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1915491355-0",
+    "path": "TestingLights[7]/PointLight_06[5]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 4.230000019073486,
+      "z": 9.258999824523926
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-235961091-0",
+    "path": "TestingLights[7]/PointLight_07[6]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 4.96999979019165,
+      "y": 4.230000019073486,
+      "z": 6.931000232696533
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1556247936-0",
+    "path": "TestingLights[7]/PointLight_08[7]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 4.230000019073486,
+      "z": 1.4730000495910645
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-499357380-0",
+    "path": "TestingLights[7]/PointLight_09[8]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 4.96999979019165,
+      "y": 4.230000019073486,
+      "z": -0.8549995422363281
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1152851687-0",
+    "path": "TestingLights[7]/PointLight_10[9]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 4.230000019073486,
+      "z": -1.656000018119812
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-170595699-0",
+    "path": "TestingLights[7]/PointLight_11[10]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 4.96999979019165,
+      "y": 4.230000019073486,
+      "z": -3.983999729156494
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1774522551-0",
+    "path": "TestingLights[7]/PointLight_12[11]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -4.156000137329102,
+      "y": 4.230000019073486,
+      "z": 5.459000110626221
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-2001063185-0",
+    "path": "TestingLights[7]/PointLight_13[12]",
+    "type": "Point",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 4.96999979019165,
+      "y": 4.230000019073486,
+      "z": 3.131000518798828
+    },
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 5.0,
+    "range": 3.0,
+    "innerSpotAngleDegrees": 21.802080154418945,
+    "outerSpotAngleDegrees": 30.0,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-111899422-0",
+    "path": "TestingLights[7]/Spot Light_01[13]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 0.2199999988079071,
+      "y": 4.375,
+      "z": 4.789999961853027
+    },
+    "direction": {
+      "x": 0.08000992238521576,
+      "y": -0.8231363296508789,
+      "z": 0.5621787905693054
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-2127958156-0",
+    "path": "TestingLights[7]/Spot Light_02[14]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 0.2199999988079071,
+      "y": 4.375,
+      "z": 4.789999961853027
+    },
+    "direction": {
+      "x": 0.1333840936422348,
+      "y": 0.3222658336162567,
+      "z": 0.9372050762176514
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-112546434-0",
+    "path": "TestingLights[7]/Spot Light_03[15]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 0.2199999988079071,
+      "y": 4.572999954223633,
+      "z": 2.9579999446868896
+    },
+    "direction": {
+      "x": -0.046902358531951904,
+      "y": -0.8980276584625244,
+      "z": -0.43743154406547546
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1374047612-0",
+    "path": "TestingLights[7]/Spot Light_04[16]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 0.2199999988079071,
+      "y": 4.572999954223633,
+      "z": 2.9579999446868896
+    },
+    "direction": {
+      "x": -0.046902358531951904,
+      "y": -0.8980276584625244,
+      "z": -0.43743154406547546
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-725005602-0",
+    "path": "TestingLights[7]/Spot Light_05[17]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": 0.20999999344348907,
+      "y": 2.640000104904175,
+      "z": -5.739999771118164
+    },
+    "direction": {
+      "x": 0.008158073760569096,
+      "y": -0.3551068902015686,
+      "z": -0.934790313243866
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1513803488-0",
+    "path": "TestingLights[7]/Spot Light_06[18]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -0.4090000092983246,
+      "y": 2.740999937057495,
+      "z": -1.9819999933242798
+    },
+    "direction": {
+      "x": 0.008158073760569096,
+      "y": -0.3551068902015686,
+      "z": -0.934790313243866
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-312372191-0",
+    "path": "TestingLights[7]/Spot Light_07[19]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -0.4000000059604645,
+      "y": 5.568999767303467,
+      "z": -3.055999994277954
+    },
+    "direction": {
+      "x": 0.008158073760569096,
+      "y": -0.3551068902015686,
+      "z": -0.934790313243866
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-f81528f9e2a61f243aa0e9979fd0f84f-1290834828-0",
+    "path": "TestingLights[7]/Spot Light_08[20]",
+    "type": "Spot",
+    "mode": "Realtime",
+    "shadows": "None",
+    "enabled": true,
+    "active": true,
+    "hasCookie": false,
+    "useColorTemperature": false,
+    "cullingMask": -1,
+    "position": {
+      "x": -0.4000000059604645,
+      "y": 5.568999767303467,
+      "z": -3.055999994277954
+    },
+    "direction": {
+      "x": 0.008158073760569096,
+      "y": -0.3551068902015686,
+      "z": -0.934790313243866
+    },
+    "colorRaw": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "colorLinear": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "intensity": 20.0,
+    "range": 10.0,
+    "innerSpotAngleDegrees": 75.91272735595703,
+    "outerSpotAngleDegrees": 94.73956298828125,
+    "colorTemperature": 6570.0
+  }
+]

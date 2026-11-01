@@ -1,0 +1,21 @@
+{
+  "sample_file": "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\garden_samples_005\\samples.npz",
+  "light_file": "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\garden_samples_005\\lights.json",
+  "sample_sha256": "7a2d7a0477aebf4ac6c18c95c82c9e04b60515c2f39cfe23c05a839d4637a037",
+  "light_sha256": "f59f2b157dcddbd4c385da48a584e158e8ecca5b82f1481049c8a1c74953e38e",
+  "model_source_sha256": "98067a10ad5b8832f592204b9ea0bae8663370d9302175ed8ddcc2d45b10183e",
+  "model": "LightOpt equations 3-5",
+  "sample_count": 86114,
+  "light_count": 13,
+  "target_shape": [
+    86114,
+    3
+  ],
+  "dtype": "float32",
+  "device": "cpu",
+  "attenuation_smoothness": 1.0,
+  "visibility": 1.0,
+  "cookies": "unsupported; rejected by loader",
+  "color_temperature": "unsupported; rejected by loader",
+  "complete": true
+}

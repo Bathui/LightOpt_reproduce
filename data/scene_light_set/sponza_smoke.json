@@ -1,0 +1,1966 @@
+{
+  "schemaVersion": 3,
+  "format": "lightopt.scene_light_set.v1",
+  "sampleFolder": "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\sponza_samples_001",
+  "sampleCount": 100195,
+  "sourceScene": "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\editor_scene\\LightOpt_Scene\\Assets\\Scenes\\Sponza_LightOpt.unity",
+  "sourceSceneGuid": "f81528f9e2a61f243aa0e9979fd0f84f",
+  "sourceSceneSha256": "7238ca1f172b0f9153e92544e71e6788145ebe73c684381b4759687c6d84e041",
+  "device": "cuda",
+  "attenuationSmoothness": 1.0,
+  "targetMode": "original_lights_recomputed",
+  "optimizedParameters": [
+    "intensity",
+    "position",
+    "range"
+  ],
+  "optimizationConfig": {
+    "steps": 5,
+    "intensity_learning_rate": 0.05,
+    "position_learning_rate": 0.001,
+    "range_learning_rate": 0.001,
+    "initial_intensity_scale": 0.01,
+    "log_every": 1
+  },
+  "lightSetConfig": {
+    "importance_threshold": 0.1,
+    "dbscan_eps": 0.5,
+    "dbscan_min_samples": 8,
+    "height_min": 0.1,
+    "height_max": 5.0,
+    "height_steps": 8,
+    "range_margin": 1.1,
+    "angle_margin_degrees": 2.0,
+    "point_angle_degrees": 130.0,
+    "inner_angle_ratio": 0.8,
+    "attenuation_smoothness": 1.0,
+    "max_additions": 2,
+    "require_reconstruction_improvement": true
+  },
+  "lossConfig": {
+    "overlap_weight": 0.0,
+    "attraction_weight": 0.0,
+    "n_max": 3,
+    "beta_w": 1.0,
+    "beta_p": 1.0,
+    "beta_m": 1.0,
+    "under_eps": 0.1,
+    "dark_eps": 1e-08,
+    "volume": 15.0,
+    "eps": 1e-08,
+    "spot_sign_correction": true
+  },
+  "lossWeights": {
+    "reconstruction": 1.0,
+    "overlap": 0.0,
+    "attraction": 0.0
+  },
+  "rounds": 2,
+  "states": {
+    "reference": {
+      "lights": [
+        {
+          "kind": "Point",
+          "position": [
+            3.427000045776367,
+            1.0499999523162842,
+            -2.049999952316284
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 2.4000000953674316,
+          "range": 2.049999952316284,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.736000061035156,
+            5.059999942779541,
+            -4.380000114440918
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            5.059999942779541,
+            -9.314000129699707
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            2.059999942779541,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -0.8029999732971191,
+            4.230000019073486,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            6.931000232696533
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            1.4730000495910645
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            -0.8549995422363281
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            -1.656000018119812
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            -3.983999729156494
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            5.459000110626221
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            3.131000518798828
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 5.0,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.375,
+            4.789999961853027
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.08000992238521576,
+            -0.8231363296508789,
+            0.5621787905693054
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.375,
+            4.789999961853027
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.133384108543396,
+            0.3222658634185791,
+            0.9372051358222961
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.572999954223633,
+            2.9579999446868896
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.572999954223633,
+            2.9579999446868896
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.20999999344348907,
+            2.640000104904175,
+            -5.739999771118164
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4090000092983246,
+            2.740999937057495,
+            -1.9819999933242798
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4000000059604645,
+            5.568999767303467,
+            -3.055999994277954
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4000000059604645,
+            5.568999767303467,
+            -3.055999994277954
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 20.0,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        }
+      ],
+      "summary": {
+        "light_count": 21,
+        "losses": {
+          "total": 2.6816163222267986e-13,
+          "reconstruction": 2.6816163222267986e-13,
+          "overlap": -21334.32421875,
+          "attraction": 0.0
+        },
+        "underlit_samples": 0,
+        "actual_excess_samples": 893
+      }
+    },
+    "before": {
+      "lights": [
+        {
+          "kind": "Point",
+          "position": [
+            3.427000045776367,
+            1.0499999523162842,
+            -2.049999952316284
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.024000000208616257,
+          "range": 2.049999952316284,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.736000061035156,
+            5.059999942779541,
+            -4.380000114440918
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            5.059999942779541,
+            -9.314000129699707
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            2.059999942779541,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -0.8029999732971191,
+            4.230000019073486,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            9.258999824523926
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            6.931000232696533
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            1.4730000495910645
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            -0.8549995422363281
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            -1.656000018119812
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            -3.983999729156494
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.156000137329102,
+            4.230000019073486,
+            5.459000110626221
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.96999979019165,
+            4.230000019073486,
+            3.131000518798828
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.04999999701976776,
+          "range": 3.0,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.375,
+            4.789999961853027
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.08000992238521576,
+            -0.8231363296508789,
+            0.5621787905693054
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.375,
+            4.789999961853027
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.133384108543396,
+            0.3222658634185791,
+            0.9372051358222961
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.572999954223633,
+            2.9579999446868896
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2199999988079071,
+            4.572999954223633,
+            2.9579999446868896
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.20999999344348907,
+            2.640000104904175,
+            -5.739999771118164
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4090000092983246,
+            2.740999937057495,
+            -1.9819999933242798
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4000000059604645,
+            5.568999767303467,
+            -3.055999994277954
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4000000059604645,
+            5.568999767303467,
+            -3.055999994277954
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.19999998807907104,
+          "range": 10.0,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        }
+      ],
+      "summary": {
+        "light_count": 21,
+        "losses": {
+          "total": 1206.80029296875,
+          "reconstruction": 1206.80029296875,
+          "overlap": -19887.384765625,
+          "attraction": 501.6758117675781
+        },
+        "underlit_samples": 20964,
+        "actual_excess_samples": 893
+      }
+    },
+    "after": {
+      "lights": [
+        {
+          "kind": "Point",
+          "position": [
+            3.412245273590088,
+            1.0352458953857422,
+            -2.035247564315796
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7727328538894653,
+          "range": 2.064754009246826,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.750906944274902,
+            5.045098304748535,
+            -4.3650946617126465
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7993071675300598,
+          "range": 3.0149004459381104,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170899868011475,
+            5.04509973526001,
+            -9.299092292785645
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.799386203289032,
+          "range": 3.0149002075195312,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170899868011475,
+            2.074899435043335,
+            9.244125366210938
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7993528842926025,
+          "range": 3.0149004459381104,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -0.7988702654838562,
+            4.215093612670898,
+            9.244091987609863
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7993097305297852,
+          "range": 3.0149011611938477,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170901298522949,
+            4.215090274810791,
+            9.273908615112305
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992990016937256,
+          "range": 3.0149009227752686,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.9550909996032715,
+            4.215156555175781,
+            6.944169998168945
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992769479751587,
+          "range": 3.0149002075195312,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170902252197266,
+            4.215091228485107,
+            1.4824541807174683
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992910146713257,
+          "range": 3.0149011611938477,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.9550933837890625,
+            4.215089797973633,
+            -0.8698967695236206
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992857098579407,
+          "range": 3.0149002075195312,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170902729034424,
+            4.219472885131836,
+            -1.6410951614379883
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992894053459167,
+          "range": 3.0149009227752686,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.9550886154174805,
+            4.215110778808594,
+            -3.9834320545196533
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992751002311707,
+          "range": 3.014899969100952,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            -4.170902729034424,
+            4.215817928314209,
+            5.473905086517334
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.79929119348526,
+          "range": 3.0149011611938477,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Point",
+          "position": [
+            4.955094337463379,
+            4.215091705322266,
+            3.135324478149414
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.7992733716964722,
+          "range": 3.0149002075195312,
+          "attenuation_smoothness": 1.0,
+          "direction": null,
+          "inner_half_angle": null,
+          "outer_half_angle": null
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.2350514978170395,
+            4.390047550201416,
+            4.805050849914551
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498554468154907,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.08000992238521576,
+            -0.8231363296508789,
+            0.5621787905693054
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.23505263030529022,
+            4.359951019287109,
+            4.805052757263184
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498421549797058,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.133384108543396,
+            0.3222658634185791,
+            0.9372051358222961
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.20579113066196442,
+            4.557950496673584,
+            2.94612979888916
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498521089553833,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.20579113066196442,
+            4.557950496673584,
+            2.94612979888916
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498521089553833,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0469023622572422,
+            -0.8980277180671692,
+            -0.43743157386779785
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            0.22504527866840363,
+            2.6550509929656982,
+            -5.724949359893799
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.949863076210022,
+          "range": 10.015053749084473,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.42404747009277344,
+            2.7259578704833984,
+            -1.9970468282699585
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498630166053772,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4150567352771759,
+            5.553949356079102,
+            -3.0409653186798096
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498826265335083,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.4150567352771759,
+            5.553949356079102,
+            -3.0409653186798096
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 0.9498826265335083,
+          "range": 10.015052795410156,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.008158071897923946,
+            -0.35510680079460144,
+            -0.9347900748252869
+          ],
+          "inner_half_angle": 0.6624635457992554,
+          "outer_half_angle": 0.8267586827278137
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -0.6427147388458252,
+            5.55164909362793,
+            -4.1766204833984375
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 36.4394416809082,
+          "range": 3.6771607398986816,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.48376479744911194,
+            0.30837106704711914,
+            -0.8190720081329346
+          ],
+          "inner_half_angle": 0.24223220348358154,
+          "outer_half_angle": 0.30279025435447693
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -1.0835412740707397,
+            3.7486612796783447,
+            -3.4111523628234863
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 92.97738647460938,
+          "range": 5.9568190574646,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            0.6256240606307983,
+            0.45307260751724243,
+            -0.6350746154785156
+          ],
+          "inner_half_angle": 0.1331481784582138,
+          "outer_half_angle": 0.16643521189689636
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            1.0149421691894531,
+            3.9835617542266846,
+            -13.707071304321289
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 2.488142490386963,
+          "range": 5.99678373336792,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0,
+            -1.0,
+            -2.214081860074657e-07
+          ],
+          "inner_half_angle": 0.3543049991130829,
+          "outer_half_angle": 0.4428812563419342
+        },
+        {
+          "kind": "Spot",
+          "position": [
+            -1.9924063682556152,
+            3.9736554622650146,
+            -12.870752334594727
+          ],
+          "color_linear": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "intensity": 9.568825721740723,
+          "range": 5.559964656829834,
+          "attenuation_smoothness": 1.0,
+          "direction": [
+            -0.0,
+            -1.0,
+            -2.2140814337490156e-07
+          ],
+          "inner_half_angle": 0.1410181224346161,
+          "outer_half_angle": 0.17627264559268951
+        }
+      ],
+      "summary": {
+        "light_count": 25,
+        "losses": {
+          "total": 945.3380126953125,
+          "reconstruction": 945.3380126953125,
+          "overlap": -23642.71484375,
+          "attraction": 231.25369262695312
+        },
+        "underlit_samples": 13241,
+        "actual_excess_samples": 903
+      }
+    }
+  },
+  "history": [
+    {
+      "stage": "initial_removal",
+      "importance": [
+        28.104740142822266,
+        178.56741333007812,
+        158.5343475341797,
+        207.63934326171875,
+        183.37539672851562,
+        193.08143615722656,
+        204.85255432128906,
+        213.31622314453125,
+        213.2930908203125,
+        214.89083862304688,
+        200.5091552734375,
+        213.29776000976562,
+        203.69964599609375,
+        298.2915344238281,
+        304.9089660644531,
+        312.1065979003906,
+        312.1065673828125,
+        306.7735290527344,
+        259.80938720703125,
+        209.22967529296875,
+        209.22967529296875
+      ],
+      "kept_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "removed_indices": [],
+      "light_count": 21,
+      "losses": {
+        "total": 1206.80029296875,
+        "reconstruction": 1206.80029296875,
+        "overlap": -19887.384765625,
+        "attraction": 501.6758117675781
+      }
+    },
+    {
+      "stage": "round",
+      "round": 0,
+      "optimization": [
+        {
+          "step": 0,
+          "total": 1206.80029296875,
+          "reconstruction": 1206.80029296875,
+          "overlap": -19887.384765625,
+          "attraction": 501.6758117675781
+        },
+        {
+          "step": 1,
+          "total": 1188.32470703125,
+          "reconstruction": 1188.32470703125,
+          "overlap": -19764.89453125,
+          "attraction": 501.6524963378906
+        },
+        {
+          "step": 2,
+          "total": 1170.005615234375,
+          "reconstruction": 1170.005615234375,
+          "overlap": -19621.763671875,
+          "attraction": 502.3372802734375
+        },
+        {
+          "step": 3,
+          "total": 1151.8465576171875,
+          "reconstruction": 1151.8465576171875,
+          "overlap": -19531.1796875,
+          "attraction": 502.8503723144531
+        },
+        {
+          "step": 4,
+          "total": 1133.850830078125,
+          "reconstruction": 1133.850830078125,
+          "overlap": -19438.373046875,
+          "attraction": 504.9057922363281
+        },
+        {
+          "step": 5,
+          "total": 1116.021484375,
+          "reconstruction": 1116.021484375,
+          "overlap": -19316.419921875,
+          "attraction": 505.123779296875
+        }
+      ],
+      "removal": {
+        "importance": [
+          3.2676520347595215,
+          10.741519927978516,
+          9.587860107421875,
+          12.525908470153809,
+          11.014280319213867,
+          11.611209869384766,
+          12.331038475036621,
+          12.823403358459473,
+          12.839255332946777,
+          12.91738510131836,
+          12.063170433044434,
+          12.822385787963867,
+          12.256362915039062,
+          6.7167510986328125,
+          6.87423038482666,
+          7.034948348999023,
+          7.034948348999023,
+          6.907144546508789,
+          5.856230735778809,
+          4.720178127288818,
+          4.720178604125977
+        ],
+        "kept_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "removed_indices": []
+      },
+      "addition": {
+        "underlit_count": 20771,
+        "noise_count": 1044,
+        "added_indices": [
+          21,
+          22
+        ],
+        "skipped": [
+          {
+            "cluster": 0,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 2,
+            "reason": "no_global_reconstruction_improvement"
+          }
+        ],
+        "cluster_count": 27,
+        "accepted": [
+          {
+            "cluster": 1,
+            "light_index": 21,
+            "sample_count": 15,
+            "importance": 5.447055339813232,
+            "kind": "Spot",
+            "intensity": 36.937435150146484,
+            "range": 3.6871349811553955,
+            "reconstruction_before": 1116.0213623046875,
+            "reconstruction_after": 1115.326171875
+          },
+          {
+            "cluster": 3,
+            "light_index": 22,
+            "sample_count": 14,
+            "importance": 2.087913990020752,
+            "kind": "Spot",
+            "intensity": 93.47318267822266,
+            "range": 5.966794490814209,
+            "reconstruction_before": 1115.326171875,
+            "reconstruction_after": 1115.1895751953125
+          }
+        ],
+        "unprocessed_clusters": 23
+      },
+      "light_count": 23,
+      "losses_before_remove": {
+        "total": 1116.021484375,
+        "reconstruction": 1116.021484375,
+        "overlap": -19316.419921875,
+        "attraction": 505.123779296875
+      },
+      "losses_after_remove": {
+        "total": 1116.021484375,
+        "reconstruction": 1116.021484375,
+        "overlap": -19316.419921875,
+        "attraction": 505.123779296875
+      },
+      "losses_after_add": {
+        "total": 1115.189453125,
+        "reconstruction": 1115.189453125,
+        "overlap": -19156.7421875,
+        "attraction": 505.123779296875
+      }
+    },
+    {
+      "stage": "round",
+      "round": 1,
+      "optimization": [
+        {
+          "step": 0,
+          "total": 1115.189453125,
+          "reconstruction": 1115.189453125,
+          "overlap": -19156.7421875,
+          "attraction": 505.123779296875
+        },
+        {
+          "step": 1,
+          "total": 1097.480224609375,
+          "reconstruction": 1097.480224609375,
+          "overlap": -19027.8125,
+          "attraction": 497.1064147949219
+        },
+        {
+          "step": 2,
+          "total": 1079.9306640625,
+          "reconstruction": 1079.9306640625,
+          "overlap": -18907.84375,
+          "attraction": 489.7698974609375
+        },
+        {
+          "step": 3,
+          "total": 1062.5447998046875,
+          "reconstruction": 1062.5447998046875,
+          "overlap": -18797.7265625,
+          "attraction": 477.31622314453125
+        },
+        {
+          "step": 4,
+          "total": 1045.3258056640625,
+          "reconstruction": 1045.3258056640625,
+          "overlap": -18635.73046875,
+          "attraction": 324.9593505859375
+        },
+        {
+          "step": 5,
+          "total": 1028.2774658203125,
+          "reconstruction": 1028.2774658203125,
+          "overlap": -18527.953125,
+          "attraction": 231.03248596191406
+        }
+      ],
+      "removal": {
+        "importance": [
+          6.3771185874938965,
+          19.75594711303711,
+          17.730770111083984,
+          23.10531234741211,
+          20.23192596435547,
+          21.349727630615234,
+          22.695457458496094,
+          23.56993865966797,
+          23.63058853149414,
+          23.741968154907227,
+          22.196096420288086,
+          23.568439483642578,
+          22.54679298400879,
+          10.457703590393066,
+          10.715557098388672,
+          10.964198112487793,
+          10.96419906616211,
+          10.753591537475586,
+          9.126419067382812,
+          7.3628387451171875,
+          7.3628387451171875,
+          6.586740493774414,
+          2.660574436187744
+        ],
+        "kept_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "removed_indices": []
+      },
+      "addition": {
+        "underlit_count": 13804,
+        "noise_count": 1071,
+        "added_indices": [
+          23,
+          24
+        ],
+        "skipped": [
+          {
+            "cluster": 0,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 1,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 2,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 3,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 5,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 6,
+            "reason": "no_global_reconstruction_improvement"
+          },
+          {
+            "cluster": 7,
+            "reason": "no_global_reconstruction_improvement"
+          }
+        ],
+        "cluster_count": 22,
+        "accepted": [
+          {
+            "cluster": 4,
+            "light_index": 23,
+            "sample_count": 95,
+            "importance": 0.6775556206703186,
+            "kind": "Spot",
+            "intensity": 2.579927921295166,
+            "range": 5.991767406463623,
+            "reconstruction_before": 1028.27734375,
+            "reconstruction_after": 1028.27587890625
+          },
+          {
+            "cluster": 8,
+            "light_index": 24,
+            "sample_count": 17,
+            "importance": 0.21772024035453796,
+            "kind": "Spot",
+            "intensity": 9.81949234008789,
+            "range": 5.555418968200684,
+            "reconstruction_before": 1028.27587890625,
+            "reconstruction_after": 1028.2750244140625
+          }
+        ],
+        "unprocessed_clusters": 13
+      },
+      "light_count": 25,
+      "losses_before_remove": {
+        "total": 1028.2774658203125,
+        "reconstruction": 1028.2774658203125,
+        "overlap": -18527.953125,
+        "attraction": 231.03248596191406
+      },
+      "losses_after_remove": {
+        "total": 1028.2774658203125,
+        "reconstruction": 1028.2774658203125,
+        "overlap": -18527.953125,
+        "attraction": 231.03248596191406
+      },
+      "losses_after_add": {
+        "total": 1028.27490234375,
+        "reconstruction": 1028.27490234375,
+        "overlap": -24368.69140625,
+        "attraction": 231.03248596191406
+      }
+    },
+    {
+      "stage": "final_refine",
+      "optimization": [
+        {
+          "step": 0,
+          "total": 1028.27490234375,
+          "reconstruction": 1028.27490234375,
+          "overlap": -24368.69140625,
+          "attraction": 231.03248596191406
+        },
+        {
+          "step": 1,
+          "total": 1011.3516235351562,
+          "reconstruction": 1011.3516235351562,
+          "overlap": -24253.73046875,
+          "attraction": 228.12921142578125
+        },
+        {
+          "step": 2,
+          "total": 994.592529296875,
+          "reconstruction": 994.592529296875,
+          "overlap": -24079.16796875,
+          "attraction": 228.3136444091797
+        },
+        {
+          "step": 3,
+          "total": 978.0015869140625,
+          "reconstruction": 978.0015869140625,
+          "overlap": -23921.55859375,
+          "attraction": 230.42507934570312
+        },
+        {
+          "step": 4,
+          "total": 961.582275390625,
+          "reconstruction": 961.582275390625,
+          "overlap": -23844.08984375,
+          "attraction": 231.30642700195312
+        },
+        {
+          "step": 5,
+          "total": 945.3380126953125,
+          "reconstruction": 945.3380126953125,
+          "overlap": -23642.71484375,
+          "attraction": 231.25369262695312
+        }
+      ],
+      "light_count": 25,
+      "losses": {
+        "total": 945.3380126953125,
+        "reconstruction": 945.3380126953125,
+        "overlap": -23642.71484375,
+        "attraction": 231.25369262695312
+      }
+    }
+  ],
+  "inputSha256": {
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\sponza_samples_001\\samples.npz": "85680c918bfc3063de690494ac9454caaddefdb05f9fc9ca742b0013dea7271e",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\sponza_samples_001\\lights.json": "f40acf66ccb747e4501eb57eea95616b10dab104406524a00a7bc41afe7e790a",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\editor_scene\\LightOpt_Scene\\Assets\\Scenes\\Sponza_LightOpt.unity": "7238ca1f172b0f9153e92544e71e6788145ebe73c684381b4759687c6d84e041",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\algo\\light.py": "f5566e20ac2402e9e037919e46ff854c744596797c03e4897a6e71dac97e8402",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\algo\\loss.py": "296122125f528848bdcc2cc9cd42e3d7325fb4a69bba9f78fea831af302a91a0",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\algo\\optimize.py": "c5657d1a8b74ff330ad15660d6e8b80b5b6b30c3761caa0a8e06b26730ee0899",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\algo\\trainable_lights.py": "922d4bf9861d9789017be0194d993f5dc0ad3cc889e5bc44210fd9e03b2699bf",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\config\\optimization_config.py": "3727978540cbabd56475e53f13a8aa7af8a96673679e3f86a0f08ec7ad96703d",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\config\\loss_config.py": "d5a8f22c62a23ce04b52719a7a43943034da54d936720f8e8a7157dd2e0833ca",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\scripts\\export_unity_preview.py": "02b0e2877a412321ce9588f903e5ade896960d8714075544475ff7f92464a01a",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\Unity_Visual_Script\\optimize_scene.py": "01689c2cb4ed2ba92c7442741e8d4a80f4bbc80c0e220d54023292ea162296cb",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\algo\\light_set.py": "822fcc77181c81a333251a0833249724636b3f34a6fd2b498dcc18c6e25bb93d",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\config\\light_set_config.py": "fa46716ae05afc63d587f71149f4c16b769bcd7a9afef0a05f9996a024787b85",
+    "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\Unity_Visual_Script\\debug_light_set.py": "6cec056036fc0e8a2f5fbe5d28c3ba22624442283d8a765d579b122906b8d7d5"
+  },
+  "inputsUnchanged": true,
+  "note": "Variable-count Python results. Unity preview schema 1/2 cannot load schema 3."
+}

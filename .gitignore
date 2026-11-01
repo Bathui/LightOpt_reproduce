@@ -37,5 +37,4 @@ __pycache__/
 /editor_scene/LightOpt_Scene/*.csproj
 /editor_scene/LightOpt_Scene/*.sln
 /editor_scene/LightOpt_Scene/*.slnx
-
-/data/garden*
+/editor_scene/ClassicSponza_URP.unitypackage

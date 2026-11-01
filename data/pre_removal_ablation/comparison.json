@@ -1,0 +1,160 @@
+{
+  "sample_folder": "E:\\computer science\\Paper\\Graphics\\Code\\LightOpt\\data\\garden_samples_004",
+  "elapsed_seconds": {
+    "with_preremoval": 48.00509690004401,
+    "without_preremoval": 49.616797799943015
+  },
+  "production_files_unchanged": true,
+  "stages": [
+    {
+      "stage": "initial_removal",
+      "round": null,
+      "with_light_count": 7,
+      "without_light_count": 13,
+      "with_losses": {
+        "total": 33.72969436645508,
+        "reconstruction": 33.72969436645508,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "without_losses": {
+        "total": 33.72969436645508,
+        "reconstruction": 33.72969436645508,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "with_removed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "stage": "round",
+      "round": 0,
+      "with_light_count": 7,
+      "without_light_count": 7,
+      "max_loss_difference": {
+        "total": 0.5494744777679443,
+        "reconstruction": 9.059906005859375e-06,
+        "overlap": 0.0,
+        "attraction": 2.7473716735839844
+      },
+      "with_final_losses": {
+        "step": 300,
+        "total": 0.6160286664962769,
+        "reconstruction": 0.6160286664962769,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "without_final_losses": {
+        "step": 300,
+        "total": 0.6160286664962769,
+        "reconstruction": 0.6160286664962769,
+        "overlap": 0.0,
+        "attraction": 0.0
+      }
+    },
+    {
+      "stage": "round",
+      "round": 1,
+      "with_light_count": 7,
+      "without_light_count": 7,
+      "max_loss_difference": {
+        "total": 0.0,
+        "reconstruction": 0.0,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "with_final_losses": {
+        "step": 300,
+        "total": 0.004157490096986294,
+        "reconstruction": 0.004157490096986294,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "without_final_losses": {
+        "step": 300,
+        "total": 0.004157490096986294,
+        "reconstruction": 0.004157490096986294,
+        "overlap": 0.0,
+        "attraction": 0.0
+      }
+    },
+    {
+      "stage": "round",
+      "round": 2,
+      "with_light_count": 7,
+      "without_light_count": 7,
+      "max_loss_difference": {
+        "total": 0.0,
+        "reconstruction": 0.0,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "with_final_losses": {
+        "step": 300,
+        "total": 3.078473673667759e-05,
+        "reconstruction": 3.078473673667759e-05,
+        "overlap": 0.0,
+        "attraction": 0.0
+      },
+      "without_final_losses": {
+        "step": 300,
+        "total": 3.078473673667759e-05,
+        "reconstruction": 3.078473673667759e-05,
+        "overlap": 0.0,
+        "attraction": 0.0
+      }
+    }
+  ],
+  "identical_inputs_and_sources": true,
+  "final": {
+    "with_preremoval": {
+      "count": {
+        "adjustmentEnabled": true,
+        "original": 13,
+        "final": 7,
+        "removed": 6,
+        "added": 0,
+        "netReduction": 6
+      },
+      "summary": {
+        "light_count": 7,
+        "losses": {
+          "total": 3.078473673667759e-05,
+          "reconstruction": 3.078473673667759e-05,
+          "overlap": 0.0,
+          "attraction": 0.0
+        },
+        "underlit_samples": 0,
+        "actual_excess_samples": 0
+      }
+    },
+    "without_preremoval": {
+      "count": {
+        "adjustmentEnabled": true,
+        "original": 13,
+        "final": 7,
+        "removed": 6,
+        "added": 0,
+        "netReduction": 6
+      },
+      "summary": {
+        "light_count": 7,
+        "losses": {
+          "total": 3.078473673667759e-05,
+          "reconstruction": 3.078473673667759e-05,
+          "overlap": 0.0,
+          "attraction": 0.0
+        },
+        "underlit_samples": 0,
+        "actual_excess_samples": 0
+      }
+    }
+  },
+  "final_light_parameters_identical": true
+}

@@ -59,14 +59,19 @@ namespace LightOpt.Reproduction
         [MenuItem("Tools/LightOpt/Export active scene")]
         public static void ExportActiveScene()
         {
+            var parent = Path.GetDirectoryName(Application.dataPath);
+            var folder = EditorUtility.SaveFolderPanel("New LightOpt export folder", parent, "");
+            if (string.IsNullOrEmpty(folder)) return;
+            ExportToFolder(folder);
+        }
+
+        public static void ExportToFolder(string folder, bool revealInFinder = true)
+        {
             if (EditorApplication.isPlayingOrWillChangePlaymode)
                 throw new InvalidOperationException("Stop Play Mode before exporting.");
             var scene = SceneManager.GetActiveScene();
             if (!scene.IsValid() || !scene.isLoaded)
                 throw new InvalidOperationException("No active scene.");
-            var parent = Path.GetDirectoryName(Application.dataPath);
-            var folder = EditorUtility.SaveFolderPanel("New LightOpt export folder", parent, "");
-            if (string.IsNullOrEmpty(folder)) return;
             // Avoid mixing stale and new datasets; select a fresh, empty folder.
             if (Directory.GetFileSystemEntries(folder).Length != 0)
                 throw new InvalidOperationException("Choose a new empty folder for this export.");
@@ -105,6 +110,19 @@ namespace LightOpt.Reproduction
                         if (filter == null || filter.sharedMesh == null) continue;
                         var mesh = filter.sharedMesh;
                         var materials = renderer.sharedMaterials;
+                        Matrix4x4 matrix = renderer.localToWorldMatrix;
+                        if (Math.Abs(matrix.determinant) < 1e-12f)
+                        {
+                            Vector3 x = matrix.GetColumn(0), y = matrix.GetColumn(1), z = matrix.GetColumn(2);
+                            // Rank-zero/one transforms collapse every triangle to zero surface area.
+                            if (Vector3.Cross(x, y).sqrMagnitude == 0 && Vector3.Cross(x, z).sqrMagnitude == 0 &&
+                                Vector3.Cross(y, z).sqrMagnitude == 0)
+                            {
+                                result.notes.Add("Excluded zero-area collapsed transform: " + ObjectPath(renderer.transform));
+                                continue;
+                            }
+                            throw new InvalidOperationException("Singular object transform with potential surface area: " + ObjectPath(renderer.transform));
+                        }
                         using (var dataArray = MeshUtility.AcquireReadOnlyMeshData(mesh))
                         {
                             var data = dataArray[0];
@@ -114,9 +132,15 @@ namespace LightOpt.Reproduction
                                 var material = sub < materials.Length ? materials[sub] : null;
                                 if (material == null || data.GetSubMesh(sub).topology != MeshTopology.Triangles)
                                 { result.notes.Add("Excluded invalid submesh: " + ObjectPath(renderer.transform) + " #" + sub); continue; }
+                                int materialId;
                                 if (renderer.HasPropertyBlock())
-                                    throw new InvalidOperationException("MaterialPropertyBlock needs explicit support: " + ObjectPath(renderer.transform));
-                                if (!materialIds.TryGetValue(material, out int materialId))
+                                {
+                                    // Overrides belong to this renderer/slot, not to the shared material cache.
+                                    var record = DescribeRendererMaterial(renderer, sub, material, folder, result);
+                                    materialId = record == null ? -1 : result.materials.Count;
+                                    if (record != null) result.materials.Add(record);
+                                }
+                                else if (!materialIds.TryGetValue(material, out materialId))
                                 {
                                     var record = DescribeMaterial(material, folder, result);
                                     materialId = record == null ? -1 : result.materials.Count;
@@ -146,9 +170,6 @@ namespace LightOpt.Reproduction
                                 bool hasNormals = data.HasVertexAttribute(VertexAttribute.Normal);
                                 if (hasNormals) data.GetNormals(normals);
                                 else throw new InvalidOperationException("Mesh has no normals: " + ObjectPath(renderer.transform));
-                                Matrix4x4 matrix = renderer.localToWorldMatrix;
-                                if (Math.Abs(matrix.determinant) < 1e-12f)
-                                    throw new InvalidOperationException("Singular object transform: " + renderer.name);
                                 Matrix4x4 normalMatrix = matrix.inverse.transpose;
                                 for (int v = 0; v < data.vertexCount; ++v)
                                 {
@@ -194,7 +215,7 @@ namespace LightOpt.Reproduction
                 File.WriteAllText(Path.Combine(folder, "scene.json"), JsonUtility.ToJson(result, true));
                 Debug.Log($"LightOpt export complete: {result.meshes.Count} meshes, {triangleCount} triangles, " +
                     $"{result.lights.Count} lights. Output: {folder}");
-                EditorUtility.RevealInFinder(Path.Combine(folder, "scene.json"));
+                if (revealInFinder) EditorUtility.RevealInFinder(Path.Combine(folder, "scene.json"));
             }
             catch
             {
@@ -203,6 +224,63 @@ namespace LightOpt.Reproduction
             }
             finally { EditorUtility.ClearProgressBar(); }
         }
+        static MaterialRecord DescribeRendererMaterial(Renderer renderer, int slot, Material material,
+            string folder, SceneRecord scene)
+        {
+            var block = new MaterialPropertyBlock();
+            renderer.GetPropertyBlock(block, slot);
+            // Unity uses the slot block instead of the renderer block when both exist.
+            if (block.isEmpty) renderer.GetPropertyBlock(block);
+            if (block.isEmpty) return DescribeMaterial(material, folder, scene);
+            string shaderName = material.shader.name;
+            if (shaderName != "Universal Render Pipeline/Lit" &&
+                shaderName != "Universal Render Pipeline/Simple Lit" && shaderName != "Standard" &&
+                shaderName != "Standard (Specular setup)" &&
+                shaderName != "Legacy Shaders/Transparent/Cutout/Diffuse")
+                throw new InvalidOperationException("MaterialPropertyBlock shader needs explicit support: " +
+                    shaderName + " / " + ObjectPath(renderer.transform));
+            if (block.HasProperty("unity_ObjectToWorld") || block.HasProperty("unity_WorldToObject"))
+                throw new InvalidOperationException("Property-block transform overrides are unsupported: " + ObjectPath(renderer.transform));
+            var effective = new Material(material);
+            try
+            {
+                Shader shader = material.shader;
+                var applied = new List<string>();
+                for (int i = 0; i < shader.GetPropertyCount(); ++i)
+                {
+                    int id = shader.GetPropertyNameId(i);
+                    if (!block.HasProperty(id)) continue;
+                    string property = shader.GetPropertyName(i);
+                    switch (shader.GetPropertyType(i))
+                    {
+                        case ShaderPropertyType.Color: effective.SetColor(id, block.GetColor(id)); break;
+                        case ShaderPropertyType.Vector: effective.SetVector(id, block.GetVector(id)); break;
+                        case ShaderPropertyType.Float:
+                        case ShaderPropertyType.Range: effective.SetFloat(id, block.GetFloat(id)); break;
+                        case ShaderPropertyType.Int: effective.SetInteger(id, block.GetInteger(id)); break;
+                        case ShaderPropertyType.Texture: effective.SetTexture(id, block.GetTexture(id)); break;
+                        default: throw new InvalidOperationException("Unsupported property-block value: " + property);
+                    }
+                    applied.Add(property);
+                }
+                // Texture transforms are implicit uniforms, not declared ShaderLab properties.
+                foreach (string property in new[] { "_BaseMap", "_MainTex" })
+                {
+                    string transform = property + "_ST";
+                    if (!effective.HasProperty(property) || !block.HasVector(transform)) continue;
+                    Vector4 value = block.GetVector(transform);
+                    effective.SetTextureScale(property, new Vector2(value.x, value.y));
+                    effective.SetTextureOffset(property, new Vector2(value.z, value.w));
+                    applied.Add(transform);
+                }
+                scene.notes.Add("MaterialPropertyBlock snapshot: " + ObjectPath(renderer.transform) + " #" + slot +
+                    "; declared overrides=" + string.Join(",", applied) +
+                    ". Only receiver geometry/alpha is exported; material emission and BRDF are not irradiance targets.");
+                return DescribeMaterial(effective, folder, scene);
+            }
+            finally { UnityEngine.Object.DestroyImmediate(effective); }
+        }
+
         // Garden graph was inspected: BaseMap.A -> Alpha, constant threshold .5,
         // RenderFace Both, UV0 without tiling/offset; material override is disabled.
         static MaterialRecord DescribeMaterial(Material material, string folder, SceneRecord scene)

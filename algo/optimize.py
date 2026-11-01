@@ -27,12 +27,8 @@ def optimize_intensities(
     cfg: OptimizationConfig,
     loss_cfg: LossConfig | None = None,
 ) -> tuple[TrainableLights, list[dict[str, float | int]]]:
-    """Run fixed-count optimization of intensity, position, and range.
+    #Run fixed-count optimization of intensity, position, and range.
 
-    All inputs must share a floating dtype/device. The source lights and
-    fixed data are not modified. Each history row describes parameters
-    after exactly 'step' updates; the last row matches the returned model.
-    """
     positions = positions.detach()
     normals = normals.detach()
     E_target = E_target.detach()
@@ -156,7 +152,7 @@ def optimize_remove_add(
     loss_cfg: LossConfig | None = None,
     rounds: int = 3,
 ) -> tuple[list[LightParameters], list[dict]]:
-    """Alternate fixed-count optimization with removal/addition, without merging."""
+    # fixed-count optimization with removal/addition, without merging.
     if not isinstance(rounds, int) or rounds < 1:
         raise ValueError("rounds must be a positive integer")
 
@@ -172,17 +168,13 @@ def optimize_remove_add(
     area_weights = area_weights.detach()
 
     current = [
-        replace(
-            light,
-            intensity=(
-                light.intensity
-                * cfg.initial_intensity_scale
-            ),
+        replace(light, intensity=(
+                            light.intensity * cfg.initial_intensity_scale
+                        ),
         )
         for light in snapshot_lights(lights)
     ]
-
-    # Never reapply the initialization scale to surviving or newly added lights.
+    
     block_cfg = replace(
         cfg,
         initial_intensity_scale=1.0,

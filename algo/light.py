@@ -17,9 +17,9 @@ class LightParameters:
     intensity: Tensor                     # scalar
     range: Tensor                         # scalar
     attenuation_smoothness: Tensor        # scalar
-    direction: Tensor | None = None       # [3], Spot only
-    inner_half_angle: Tensor | None = None # scalar, radians
-    outer_half_angle: Tensor | None = None # scalar, radians
+    direction: Tensor | None = None       # [3] For Spot
+    inner_half_angle: Tensor | None = None # scalar
+    outer_half_angle: Tensor | None = None # scalar
 
 # load light information from parsed lights to initialize LightParameters
 def single_light_info(
@@ -204,7 +204,7 @@ def evaluate_point_light(
 ) -> Tensor:
     """Return RGB irradiance [N,3] from one point light at N samples.
     Eq. (3) Vi * ai * ci * I * Ai * (n * wi)
-    Also serves as the spot-light base term; direction and cone angles are unused."""
+    Also serves as the spot-light base term"""
     
     _, distance_squared, cosine = compute_light_geometry(
         positions,
@@ -228,7 +228,6 @@ def evaluate_spot_light(
     normals: Tensor,
     light: LightParameters
 ) -> Tensor:
-    """Return RGB irradiance [N,3] from one spot light at N samples."""
     # The only difference between spot light and point light is their angular factor term.
     if (
         light.direction is None
@@ -291,10 +290,8 @@ def evaluate_irradiance(
     normals: Tensor,
     lights: Sequence[LightParameters],
 ) -> Tensor:
-    """Sum all light contributions and return total RGB irradiance [N,3].
-    
-    Supports both fixed-target generation and optimization. Do not disable gradients
-    internally. The caller uses torch.no_grad() when generating a fixed target."""
+    #Sum all light contributions and return total RGB irradiance [N,3]
+   
     irradiance = torch.zeros_like(positions) # [N, 3]
 
     for light in lights:

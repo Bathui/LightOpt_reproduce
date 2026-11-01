@@ -8,7 +8,7 @@ from algo.light import LightParameters
 
 
 class TrainableLight(nn.Module):
-    """Optimize intensity while keeping the other light fields fixed."""
+    #Optimize intensity, position, color and direction while keeping the other light fields fixed.
 
     kind: Literal["Point", "Spot"]
     position: nn.Parameter
